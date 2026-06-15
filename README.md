@@ -23,7 +23,7 @@ Power BI, SQL, Excel, Python, KPI Design, Customer Segmentation
 - Premium-tier customers generated 42% of retained revenue.
 - Retention campaigns improved engagement by 18%.
 
-## Business Analysis Artifacts
+## BA Artifacts
 
 Hosted page:
 
@@ -31,12 +31,13 @@ Hosted page:
 
 Included artifacts:
 
-- Business Requirements Document (BRD)
-- Stakeholder Matrix
+- Business Problem
+- Stakeholders: Executive Leadership, Customer Service Managers, Marketing Team, Operations Team
+- Functional Requirements: view churn risk, monitor campaigns, export reports
+- Non-Functional Requirements: dashboard loads under 3 seconds, mobile responsive
 - User Stories
-- Process Flow Diagram
-- KPI Definitions
-- SQL Examples
+- SQL Section
+- Tools & Technologies
 
 ## Executive Recommendations
 
@@ -106,9 +107,9 @@ Then visit `http://localhost:4173`.
 ```sql
 SELECT
     customer_segment,
-    AVG(churn_probability) AS avg_churn_probability,
-    COUNT(customer_id) AS customers
-FROM customer_retention
+    AVG(churn_risk),
+    SUM(customer_lifetime_value)
+FROM customers
 GROUP BY customer_segment;
 ```
 

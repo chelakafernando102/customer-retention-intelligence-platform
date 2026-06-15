@@ -7,7 +7,7 @@
       name="description"
       content="Business analysis artifacts for the Customer Retention & Operations Intelligence Platform."
     />
-    <title>Business Analysis Artifacts | RetentionIQ</title>
+    <title>BA Artifacts | RetentionIQ</title>
     <link rel="stylesheet" href="styles.css" />
     <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script defer src="page-icons.js"></script>
@@ -30,7 +30,7 @@
           </a>
           <a href="business-analysis-artifacts.html" class="nav-item is-active">
             <i data-lucide="file-text"></i>
-            <span>Artifacts</span>
+            <span>BA Artifacts</span>
           </a>
           <a href="management-recommendations.html" class="nav-item">
             <i data-lucide="presentation"></i>
@@ -41,79 +41,66 @@
 
       <main class="workspace">
         <header class="artifact-hero">
-          <p class="eyebrow">Business Analysis Artifacts</p>
-          <h1>Methodology, requirements, process flow, KPI definitions, and SQL evidence.</h1>
+          <p class="eyebrow">BA Artifacts</p>
+          <h1>Business Analyst Documentation</h1>
           <p>
-            This page shows the analysis work behind the dashboard: what the business needed, who used it,
-            how decisions were mapped, and how the data was queried.
+            This tab shows the business problem, stakeholder needs, requirements, user stories,
+            SQL evidence, and tools used behind the dashboard.
           </p>
         </header>
 
         <section class="artifact-grid" aria-label="Business analysis documentation">
           <article class="panel artifact-card panel-wide">
-            <p class="eyebrow">BRD</p>
-            <h2>Business Requirements Document</h2>
+            <p class="eyebrow">Business problem</p>
+            <h2>Why this project matters</h2>
             <p>
-              Build a centralized retention intelligence platform that helps leaders monitor churn,
-              customer experience, service operations, and revenue exposure.
+              Customer churn was increasing while leaders had limited visibility into service issues,
+              campaign effectiveness, and high-risk customer segments. The business needed a centralized
+              analytics platform to identify churn drivers, prioritize retention actions, and protect
+              recurring revenue.
             </p>
-            <ul class="artifact-list">
-              <li>Monitor retention rate, churn rate, CSAT, NPS, revenue retained, and revenue at risk.</li>
-              <li>Identify high-risk customers before they churn.</li>
-              <li>Prioritize service recovery based on complaint volume, SLA misses, and CLV exposure.</li>
-              <li>Evaluate retention campaign effectiveness by segment and channel.</li>
-              <li>Provide executive recommendations for monthly performance reviews.</li>
-            </ul>
           </article>
 
           <article class="panel artifact-card">
             <p class="eyebrow">Stakeholders</p>
-            <h2>Stakeholder matrix</h2>
+            <h2>Stakeholder groups</h2>
             <div class="matrix-table">
-              <div><strong>Executive Leadership</strong><span>Retention, revenue exposure, KPI scorecards</span></div>
-              <div><strong>Service Managers</strong><span>SLA compliance, complaint volume, escalation risk</span></div>
-              <div><strong>Marketing Teams</strong><span>Campaign conversion, target segments, engagement lift</span></div>
-              <div><strong>Operations Analysts</strong><span>Process bottlenecks, data quality, trend monitoring</span></div>
+              <div><strong>Executive Leadership</strong><span>Needs revenue exposure, churn trends, and KPI scorecards.</span></div>
+              <div><strong>Customer Service Managers</strong><span>Need complaint trends, SLA performance, and escalation risk.</span></div>
+              <div><strong>Marketing Team</strong><span>Needs campaign performance, target segments, and engagement lift.</span></div>
+              <div><strong>Operations Team</strong><span>Needs process bottlenecks, workload visibility, and follow-up controls.</span></div>
             </div>
           </article>
 
           <article class="panel artifact-card">
-            <p class="eyebrow">Agile BA</p>
-            <h2>User stories</h2>
-            <ul class="artifact-list">
-              <li>As an executive, I want a retention scorecard so I can track churn risk quickly.</li>
-              <li>As a service manager, I want SLA and complaint trends so I can reduce escalation risk.</li>
-              <li>As a marketer, I want customer segments ranked by churn risk so I can target offers better.</li>
-              <li>As an analyst, I want documented KPIs so dashboard metrics stay consistent.</li>
-            </ul>
-          </article>
-
-          <article class="panel artifact-card panel-wide">
-            <p class="eyebrow">Process map</p>
-            <h2>Future-state process flow</h2>
-            <div class="process-flow" aria-label="Future state retention process">
-              <span>Customer issue</span>
-              <i data-lucide="arrow-right"></i>
-              <span>Risk score</span>
-              <i data-lucide="arrow-right"></i>
-              <span>Service recovery</span>
-              <i data-lucide="arrow-right"></i>
-              <span>Retention offer</span>
-              <i data-lucide="arrow-right"></i>
-              <span>Outcome tracking</span>
-            </div>
-          </article>
-
-          <article class="panel artifact-card">
-            <p class="eyebrow">KPI design</p>
-            <h2>KPI definitions</h2>
+            <p class="eyebrow">Requirements</p>
+            <h2>Functional requirements</h2>
             <div class="definition-list">
-              <div><strong>Retention Rate</strong><span>Customers retained divided by customers at the start of the period.</span></div>
-              <div><strong>Churn Probability</strong><span>Predicted likelihood of churn based on service, engagement, and satisfaction signals.</span></div>
-              <div><strong>Revenue at Risk</strong><span>CLV associated with customers in high-risk churn bands.</span></div>
-              <div><strong>SLA Compliance</strong><span>Tickets resolved within target service windows divided by total tickets.</span></div>
-              <div><strong>Campaign Acceptance</strong><span>Accepted retention offers divided by contacted campaign participants.</span></div>
+              <div><strong>View churn risk</strong><span>Users can identify high-risk customers by segment, CLV, complaints, and churn probability.</span></div>
+              <div><strong>Monitor campaigns</strong><span>Users can compare retention campaigns by acceptance rate, retained customers, and revenue saved.</span></div>
+              <div><strong>Export reports</strong><span>Users can export a filtered executive summary for follow-up and stakeholder review.</span></div>
             </div>
+          </article>
+
+          <article class="panel artifact-card">
+            <p class="eyebrow">Requirements</p>
+            <h2>Non-functional requirements</h2>
+            <div class="definition-list">
+              <div><strong>Performance</strong><span>Dashboard loads under 3 seconds for the sample data model.</span></div>
+              <div><strong>Responsive design</strong><span>Dashboard is mobile responsive and usable on desktop, tablet, and phone screens.</span></div>
+              <div><strong>Usability</strong><span>Core KPIs, risk segments, and priority queues are visible without advanced training.</span></div>
+            </div>
+          </article>
+
+          <article class="panel artifact-card">
+            <p class="eyebrow">User stories</p>
+            <h2>Business analyst examples</h2>
+            <ul class="artifact-list">
+              <li>As a Customer Retention Manager, I want to identify high-risk customers so that I can proactively intervene before churn occurs.</li>
+              <li>As a Customer Service Manager, I want to monitor complaint resolution times so that I can reduce escalation risk.</li>
+              <li>As a Marketing Analyst, I want to compare campaign performance by segment so that I can improve retention targeting.</li>
+              <li>As an Executive Leader, I want a KPI scorecard so that I can review churn, revenue exposure, and service performance quickly.</li>
+            </ul>
           </article>
 
           <article class="panel artifact-card">
@@ -128,14 +115,14 @@
           </article>
 
           <article class="panel artifact-card panel-wide">
-            <p class="eyebrow">SQL examples</p>
-            <h2>Analyst query evidence</h2>
+            <p class="eyebrow">SQL section</p>
+            <h2>Evidence SQL was used</h2>
             <div class="sql-example-grid">
               <pre><code>SELECT
     customer_segment,
-    AVG(churn_probability) AS avg_churn_probability,
-    COUNT(customer_id) AS customers
-FROM customer_retention
+    AVG(churn_risk),
+    SUM(customer_lifetime_value)
+FROM customers
 GROUP BY customer_segment;</code></pre>
               <pre><code>SELECT
     customer_segment,
@@ -165,6 +152,37 @@ ORDER BY revenue_saved DESC;</code></pre>
     SUM(CASE WHEN escalated = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*) AS escalation_rate
 FROM service_tickets
 GROUP BY category;</code></pre>
+            </div>
+          </article>
+
+          <article class="panel artifact-card panel-wide">
+            <p class="eyebrow">Process map</p>
+            <h2>Future-state process flow</h2>
+            <div class="process-flow" aria-label="Future state retention process">
+              <span>Customer issue</span>
+              <i data-lucide="arrow-right"></i>
+              <span>Risk score</span>
+              <i data-lucide="arrow-right"></i>
+              <span>Service recovery</span>
+              <i data-lucide="arrow-right"></i>
+              <span>Retention offer</span>
+              <i data-lucide="arrow-right"></i>
+              <span>Outcome tracking</span>
+            </div>
+          </article>
+
+          <article class="panel artifact-card panel-wide">
+            <p class="eyebrow">Tools & Technologies</p>
+            <h2>Tools used</h2>
+            <div class="tool-chip-list" aria-label="Tools and technologies">
+              <span class="tool-chip">SQL</span>
+              <span class="tool-chip">Power BI</span>
+              <span class="tool-chip">Excel</span>
+              <span class="tool-chip">Python</span>
+              <span class="tool-chip">Data Visualization</span>
+              <span class="tool-chip">Business Requirements Analysis</span>
+              <span class="tool-chip">KPI Design</span>
+              <span class="tool-chip">Customer Segmentation</span>
             </div>
           </article>
         </section>

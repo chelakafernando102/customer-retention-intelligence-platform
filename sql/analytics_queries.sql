@@ -77,7 +77,15 @@ FROM dim_customer
 GROUP BY risk_band
 ORDER BY avg_churn_probability DESC;
 
--- Recruiter-facing SQL example: segment-level churn risk
+-- Recruiter-facing SQL example: simple segment-level churn risk
+SELECT
+    customer_segment,
+    AVG(churn_risk),
+    SUM(customer_lifetime_value)
+FROM customers
+GROUP BY customer_segment;
+
+-- Recruiter-facing SQL example: segment-level churn probability
 SELECT
     customer_segment,
     AVG(churn_probability) AS avg_churn_probability,

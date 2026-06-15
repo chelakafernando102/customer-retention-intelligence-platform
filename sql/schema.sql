@@ -86,6 +86,18 @@ SELECT
   status
 FROM dim_customer;
 
+CREATE VIEW customers AS
+SELECT
+  customer_id,
+  segment AS customer_segment,
+  churn_probability AS churn_risk,
+  clv AS customer_lifetime_value,
+  complaints_last_90d,
+  campaign_engaged,
+  account_type,
+  risk_band
+FROM dim_customer;
+
 CREATE VIEW campaign_performance AS
 SELECT *
 FROM fact_campaign_performance;

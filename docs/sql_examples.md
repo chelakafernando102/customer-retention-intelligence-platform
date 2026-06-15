@@ -5,6 +5,17 @@
 ```sql
 SELECT
     customer_segment,
+    AVG(churn_risk),
+    SUM(customer_lifetime_value)
+FROM customers
+GROUP BY customer_segment;
+```
+
+## Segment-Level Churn Probability
+
+```sql
+SELECT
+    customer_segment,
     AVG(churn_probability) AS avg_churn_probability,
     COUNT(customer_id) AS customers
 FROM customer_retention

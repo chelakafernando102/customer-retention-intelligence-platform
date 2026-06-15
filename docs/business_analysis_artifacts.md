@@ -1,32 +1,47 @@
-# Business Analysis Artifacts
+# BA Artifacts
 
-## Business Requirements Document (BRD)
+## Business Problem
 
-Build a centralized retention intelligence platform that allows leaders to monitor churn, service quality, campaign effectiveness, and revenue exposure.
+Customer churn was increasing while leaders had limited visibility into service issues, campaign effectiveness, and high-risk customer segments. The business needed a centralized analytics platform to identify churn drivers, prioritize retention actions, and protect recurring revenue.
 
-### Requirements
+## Stakeholders
 
-- Track customer retention rate, churn rate, CSAT, NPS, revenue retained, and revenue at risk.
-- Identify high-risk customers before they churn.
-- Prioritize customers with complaint volume, SLA misses, and high CLV exposure.
-- Measure retention campaign performance by segment and channel.
-- Provide executive recommendations for monthly decision-making.
+- Executive Leadership
+- Customer Service Managers
+- Marketing Team
+- Operations Team
 
-## Stakeholder Matrix
+## Requirements
 
-| Stakeholder | Primary Need | Dashboard Use |
-| --- | --- | --- |
-| Executive Leadership | Revenue protection and KPI visibility | Executive scorecard and management recommendations |
-| Customer Service Managers | Lower escalation risk | SLA, complaint, and resolution monitoring |
-| Marketing Teams | Better campaign targeting | Segment risk, campaign acceptance, and retained revenue |
-| Operations Analysts | Process improvement | Churn drivers, ticket patterns, and customer queues |
+### Functional
+
+- View churn risk by customer segment, CLV, complaints, and churn probability.
+- Monitor retention campaigns by acceptance rate, retained customers, and revenue saved.
+- Export reports for stakeholder review.
+
+### Non-Functional
+
+- Dashboard loads under 3 seconds for the sample data model.
+- Dashboard is mobile responsive.
+- KPIs and priority queues are readable without advanced training.
 
 ## User Stories
 
-- As an executive, I want a retention scorecard so I can track churn risk quickly.
-- As a service manager, I want SLA and complaint trends so I can reduce escalation risk.
-- As a marketer, I want customer segments ranked by churn risk so I can target offers better.
-- As an analyst, I want documented KPIs so dashboard metrics stay consistent.
+- As a Customer Retention Manager, I want to identify high-risk customers so that I can proactively intervene before churn occurs.
+- As a Customer Service Manager, I want to monitor complaint resolution times so that I can reduce escalation risk.
+- As a Marketing Analyst, I want to compare campaign performance by segment so that I can improve retention targeting.
+- As an Executive Leader, I want a KPI scorecard so that I can review churn, revenue exposure, and service performance quickly.
+
+## SQL Section
+
+```sql
+SELECT
+    customer_segment,
+    AVG(churn_risk),
+    SUM(customer_lifetime_value)
+FROM customers
+GROUP BY customer_segment;
+```
 
 ## Process Flow Diagram
 
@@ -48,3 +63,14 @@ Customer issue -> Risk score -> Service recovery -> Retention offer -> Outcome t
 - Customers contacted within 48 hours of an issue showed higher retention.
 - Premium-tier customers generated 42% of retained revenue.
 - Retention campaigns improved engagement by 18%.
+
+## Tools & Technologies
+
+- SQL
+- Power BI
+- Excel
+- Python
+- Data Visualization
+- Business Requirements Analysis
+- KPI Design
+- Customer Segmentation
