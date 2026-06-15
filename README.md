@@ -14,7 +14,11 @@ A premium analytics portfolio project for customer retention, service operations
 
 ## Live Dashboard
 
-Open `index.html` directly or run:
+Hosted dashboard:
+
+[https://chelakafernando102.github.io/customer-retention-intelligence-platform/](https://chelakafernando102.github.io/customer-retention-intelligence-platform/)
+
+To run locally, open `index.html` directly or run:
 
 ```bash
 npm run preview
