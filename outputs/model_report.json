@@ -1,0 +1,20 @@
+{
+  "model_type": "interpretable logistic risk score",
+  "rows_scored": 420,
+  "features": [
+    "tenure_months",
+    "usage_index",
+    "csat",
+    "complaints_last_90d",
+    "avg_resolution_hours",
+    "monthly_spend",
+    "campaign_engaged"
+  ],
+  "risk_distribution": {
+    "high": 45,
+    "medium": 62,
+    "low": 313
+  },
+  "high_risk_rate": 10.71,
+  "revenue_at_risk": 113363.11
+}

@@ -1,0 +1,18 @@
+{
+  "generated_on": "2026-06-15",
+  "customer_rows": 420,
+  "ticket_rows": 680,
+  "campaign_rows": 5,
+  "months": 18,
+  "retention_rate": 91.3,
+  "churn_rate": 8.7,
+  "csat": 86.8,
+  "nps": 52,
+  "sla_compliance": 94,
+  "aht": 14.7,
+  "active_customers": 359,
+  "high_risk_customers": 132,
+  "revenue_at_risk": 345175,
+  "revenue_retained": 2233502,
+  "campaign_revenue_saved": 1167250
+}

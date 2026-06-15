@@ -1,0 +1,421 @@
+customer_id,segment,region,age,tenure_months,account_type,monthly_spend,usage_index,complaints_last_90d,support_tickets,avg_resolution_hours,csat,nps,campaign_engaged,churn_probability,risk_band,clv,status
+CUST-00001,High Value,Prairies,62,82,Family,198.39,100,2,4,39.8,76.4,30,Yes,23.4,Low,6580.2,Active
+CUST-00002,High Value,Atlantic,50,60,Premium,292.42,100,3,4,41.2,64.8,19,Yes,54,Medium,7509.35,Active
+CUST-00003,Loyal,Quebec,51,92,Premium,211.04,100,3,5,40.2,71,26,Yes,38.9,Medium,6600.91,Active
+CUST-00004,New,Quebec,39,93,Standard,43.37,89.5,1,3,26.2,94.1,55,Yes,3,Low,1640.69,Active
+CUST-00005,New,Prairies,68,68,Premium,149.96,93.1,3,3,37.5,67.4,32,No,61.1,Medium,3767.3,Active
+CUST-00006,High Value,British Columbia,32,11,Family,201.54,79.4,3,3,39.1,69.6,25,Yes,76,High,3488.66,Active
+CUST-00007,High Value,British Columbia,30,53,Business,333.71,100,0,2,18.8,99,53,No,9.4,Low,11038.46,Active
+CUST-00008,At Risk,British Columbia,67,10,Family,119.73,50.6,5,9,59.5,36,-16,Yes,96,High,1630.72,Active
+CUST-00009,New,Ontario,34,49,Premium,193.52,90.1,3,5,39.1,70,29,Yes,61.2,Medium,4527.21,Active
+CUST-00010,Loyal,British Columbia,57,55,Business,276.13,100,1,2,18.6,89,49,No,30.5,Medium,8134.79,Active
+CUST-00011,High Value,Quebec,35,37,Digital,170.75,82.5,1,1,19,94.2,50,Yes,20.1,Low,5073.32,Active
+CUST-00012,At Risk,Quebec,69,28,Business,280.81,68.2,2,3,35.2,75.7,21,No,66.8,Medium,5755.48,Active
+CUST-00013,High Value,Quebec,38,32,Business,334.02,92,1,1,17.4,87.8,39,No,30.9,Medium,9124.76,Active
+CUST-00014,Loyal,Ontario,22,48,Premium,204.22,91.5,2,3,30.6,77.8,27,No,50.1,Medium,5167.17,Active
+CUST-00015,Growth,Ontario,65,58,Premium,216.73,100,3,4,35.1,62.8,30,No,62.1,Medium,5210.62,Active
+CUST-00016,Loyal,Atlantic,43,5,Business,305.76,85.4,2,4,35.5,73,19,Yes,65.9,Medium,5683.47,Active
+CUST-00017,Growth,Quebec,63,56,Premium,257.55,100,2,2,27.5,78.3,31,No,40.7,Medium,7137.74,Active
+CUST-00018,New,Prairies,42,57,Standard,75.19,83.4,4,5,52.8,50.3,15,No,96,High,1342.14,Churned
+CUST-00019,New,Ontario,66,56,Digital,45.08,80.8,2,3,37,68.6,12,No,54.4,Medium,1138.18,Active
+CUST-00020,At Risk,Atlantic,23,41,Standard,64.9,70.4,4,7,50.5,50.9,4,Yes,88,High,1158.47,Active
+CUST-00021,High Value,Ontario,64,23,Standard,168.19,79.5,1,2,32.2,86.7,55,Yes,36.8,Medium,4279.76,Active
+CUST-00022,At Risk,Atlantic,47,40,Premium,190.09,68.4,4,6,51.1,43.9,14,No,96,High,3102.27,Active
+CUST-00023,New,Atlantic,54,40,Premium,146.98,89.2,1,2,31.9,87.5,47,No,46.3,Medium,3713.6,Active
+CUST-00024,At Risk,Ontario,25,34,Family,111.25,57.4,5,6,53.7,36.1,-18,Yes,96,High,1755.52,Active
+CUST-00025,High Value,Prairies,47,47,Standard,146.17,99.1,2,2,30.9,77.4,47,No,46.7,Medium,3774.69,Active
+CUST-00026,High Value,Prairies,55,3,Standard,178.21,68.9,1,1,18.9,87.7,46,No,51.4,Medium,3745.62,Active
+CUST-00027,Loyal,Prairies,63,9,Family,165.38,74.3,3,4,39.4,60.6,21,No,88.4,High,2463.83,Churned
+CUST-00028,At Risk,Ontario,40,87,Standard,62.99,71.4,4,4,47,56.8,5,Yes,65.1,Medium,1644.79,Active
+CUST-00029,High Value,Prairies,34,55,Digital,152.04,97.6,0,1,21.9,95.2,44,No,19,Low,4793.82,Active
+CUST-00030,At Risk,Atlantic,24,33,Premium,163.17,51.5,4,6,54.6,45.8,1,Yes,96,High,2560.14,Churned
+CUST-00031,Loyal,Quebec,64,56,Digital,109.68,95.9,2,2,28.6,74.4,37,No,48.3,Medium,2889.63,Active
+CUST-00032,New,Atlantic,33,9,Digital,28,53.3,0,1,15.4,93.9,46,No,48.4,Medium,618.74,Active
+CUST-00033,At Risk,Atlantic,47,94,Standard,105.55,92.3,2,6,47.8,69.7,15,Yes,36.5,Medium,3365.99,Active
+CUST-00034,Loyal,Ontario,45,85,Family,180.7,100,2,4,37.6,73.5,43,No,35.1,Medium,5661.69,Active
+CUST-00035,Growth,Quebec,30,30,Standard,96.4,73.2,3,4,37.6,64.4,27,No,85.4,High,1670.42,Churned
+CUST-00036,Growth,Ontario,30,77,Standard,142.45,100,3,3,35.8,72.5,17,Yes,39.2,Medium,4255.55,Active
+CUST-00037,High Value,Quebec,23,80,Digital,160.91,91,4,4,44.9,53.1,16,Yes,63.9,Medium,4135.07,Active
+CUST-00038,High Value,British Columbia,54,22,Family,248.98,96.7,3,3,34.4,65.4,33,Yes,60.1,Medium,5268.91,Active
+CUST-00039,Growth,Prairies,62,6,Family,175.43,68.5,1,2,20.1,83.4,39,No,52.9,Medium,3687.19,Active
+CUST-00040,High Value,Prairies,47,89,Digital,156.98,100,2,4,37.9,79,36,Yes,24.4,Low,5277.35,Active
+CUST-00041,New,Prairies,24,76,Business,245.77,100,0,0,14.6,98,64,No,3.4,Low,8903.76,Active
+CUST-00042,New,Ontario,23,22,Standard,93.44,78,1,3,29.3,86,36,No,53.2,Medium,2093.43,Active
+CUST-00043,At Risk,Ontario,62,86,Business,262.9,93.8,4,6,51.2,49.3,5,Yes,65.9,Medium,6803.33,Active
+CUST-00044,New,Ontario,23,7,Premium,135.6,62,3,4,34.5,63.5,15,Yes,80,High,2200.79,Churned
+CUST-00045,At Risk,Ontario,38,20,Digital,76.31,47.6,5,9,65.3,30.1,-4,No,96,High,1108.02,Active
+CUST-00046,High Value,Quebec,24,8,Business,327.75,96.3,2,3,31.3,75.6,39,Yes,52.6,Medium,6965.34,Active
+CUST-00047,Growth,British Columbia,40,21,Family,198.61,78.6,1,2,23.3,89.8,46,Yes,32.8,Medium,5161.08,Active
+CUST-00048,Loyal,Quebec,62,68,Business,263.42,100,2,2,22.6,82.6,48,Yes,21.6,Low,8490.55,Active
+CUST-00049,Loyal,Ontario,24,86,Digital,124.13,90.4,1,1,25,94.4,53,Yes,3.3,Low,4610.93,Active
+CUST-00050,New,British Columbia,22,88,Business,267.16,100,3,5,37.3,68.1,15,Yes,40.2,Medium,8197.54,Active
+CUST-00051,Loyal,British Columbia,24,15,Family,137.59,63.3,4,4,45.9,56.5,20,Yes,96,High,1935.89,Active
+CUST-00052,New,Atlantic,46,14,Digital,80.73,66.8,2,2,35.3,77.4,21,Yes,64,Medium,1593.61,Active
+CUST-00053,Growth,Prairies,46,46,Digital,90.44,82.8,0,2,21.4,98.9,59,No,20.4,Low,2755.53,Active
+CUST-00054,New,Prairies,50,12,Digital,79.35,59.3,0,2,20.3,99,64,Yes,23.4,Low,2131.98,Active
+CUST-00055,At Risk,Atlantic,43,23,Standard,50.43,37.8,2,3,34.8,71.9,25,No,79.5,High,895.64,Active
+CUST-00056,Growth,British Columbia,43,53,Standard,133.65,82.1,0,1,17.5,99,52,Yes,3,Low,4574.84,Active
+CUST-00057,Loyal,Prairies,27,4,Premium,198.73,79.2,3,4,39.3,62.2,26,Yes,79.4,High,3193.19,Churned
+CUST-00058,High Value,Atlantic,22,59,Standard,160.24,89.3,0,0,20.5,98.3,58,Yes,3,Low,5571.54,Active
+CUST-00059,Growth,Ontario,45,38,Digital,117.38,69.9,1,3,31.8,85.4,52,No,43.1,Medium,3012.21,Active
+CUST-00060,Loyal,Atlantic,47,87,Family,188.77,100,3,5,36.5,70.4,36,Yes,35.7,Medium,5928.13,Active
+CUST-00061,Growth,Quebec,26,54,Family,171.26,95.2,1,1,23.4,89.9,35,Yes,17.5,Low,5430.65,Active
+CUST-00062,Loyal,Ontario,34,79,Standard,129.08,92,3,5,40.4,61.3,26,No,56.6,Medium,3475.09,Active
+CUST-00063,Growth,Prairies,56,15,Business,294.45,84.9,4,4,50.6,47.2,-4,No,96,High,4142.91,Active
+CUST-00064,At Risk,British Columbia,58,75,Premium,148.46,70.8,3,4,37.5,60.7,29,No,72.7,High,3513.16,Active
+CUST-00065,Growth,Ontario,69,26,Business,296.79,92.2,0,0,9.7,99,67,No,19.6,Low,8551.11,Active
+CUST-00066,At Risk,British Columbia,55,65,Premium,154.93,64.6,2,7,40.5,70,30,Yes,51.3,Medium,4123.62,Active
+CUST-00067,Growth,Atlantic,55,76,Digital,72.98,93.2,2,4,42.3,75.5,42,No,46.3,Medium,2080.37,Active
+CUST-00068,High Value,Quebec,49,83,Family,233.55,100,1,1,23.5,89.4,45,No,21.4,Low,7851.48,Active
+CUST-00069,High Value,Quebec,43,77,Standard,146.03,100,3,5,43.7,63.7,10,No,55.4,Medium,3936.68,Active
+CUST-00070,Loyal,British Columbia,65,28,Business,298.5,82.4,3,3,36.7,64.1,10,Yes,63.6,Medium,6289.99,Active
+CUST-00071,At Risk,Atlantic,37,78,Digital,42.49,74.2,4,5,42.4,58.1,21,Yes,61.9,Medium,1099.56,Active
+CUST-00072,New,British Columbia,44,87,Business,259.04,100,3,3,41.3,61.2,12,No,56.9,Medium,7146.4,Active
+CUST-00073,Growth,Quebec,66,16,Family,209.45,86.5,2,4,37.3,79.4,47,Yes,49.2,Medium,4730.22,Active
+CUST-00074,Growth,Prairies,27,6,Premium,210.03,66.2,0,1,19.4,97.1,62,No,41.8,Medium,4834.05,Active
+CUST-00075,Loyal,Ontario,53,34,Digital,82.44,79.6,1,1,16.3,88.9,46,No,38.1,Medium,2160.09,Active
+CUST-00076,New,Ontario,36,40,Family,118.21,89.1,1,1,18.6,89.2,55,No,39.9,Medium,3122.87,Active
+CUST-00077,Loyal,Quebec,33,39,Business,305.14,100,3,5,40.3,66.9,15,Yes,52.7,Medium,7330.68,Active
+CUST-00078,Growth,Quebec,41,35,Standard,96.97,78.8,4,4,48.3,52.1,4,Yes,82.2,High,1779.79,Active
+CUST-00079,Loyal,Atlantic,44,16,Business,313.11,93,2,3,28,72.4,26,No,62.8,Medium,6304.78,Active
+CUST-00080,New,British Columbia,66,77,Family,96.51,98,1,2,21.9,95.4,58,Yes,3,Low,3512,Active
+CUST-00081,Loyal,British Columbia,59,70,Digital,73.94,81.4,2,3,34.1,72.1,38,No,47.8,Medium,2047.84,Active
+CUST-00082,Growth,Atlantic,41,24,Business,295.87,92.5,3,4,42.3,63.7,18,Yes,67.7,Medium,5909.71,Active
+CUST-00083,New,Atlantic,48,91,Premium,163.5,100,4,5,48.3,51.5,9,No,75.2,High,4030.93,Active
+CUST-00084,High Value,Ontario,45,18,Digital,183.44,85.4,4,4,49.7,46.8,-9,No,96,High,2630.53,Churned
+CUST-00085,At Risk,Prairies,56,21,Premium,149.64,53.1,5,7,64.2,31.1,-26,Yes,96,High,2186.24,Churned
+CUST-00086,High Value,British Columbia,65,34,Family,189.39,83.6,0,0,15.5,99,55,No,21.5,Low,5528.29,Active
+CUST-00087,High Value,Quebec,33,61,Family,256.81,93.8,1,2,21.4,84.6,50,No,22.1,Low,8092.6,Active
+CUST-00088,Loyal,British Columbia,59,79,Business,279.55,100,4,4,41.8,56.1,5,No,79.1,High,6393.87,Active
+CUST-00089,Loyal,Prairies,53,18,Premium,175.71,71.2,3,5,46.1,62.5,25,Yes,79.3,High,3047.87,Active
+CUST-00090,Growth,Atlantic,50,63,Business,297.82,100,2,4,29.5,81.2,24,Yes,31.6,Medium,8929.24,Active
+CUST-00091,At Risk,Atlantic,57,41,Premium,176.93,58.8,4,6,45.1,54.3,24,Yes,86.4,High,3209.16,Churned
+CUST-00092,High Value,British Columbia,45,61,Family,188.9,96.4,1,2,23.4,88.1,55,No,27.8,Low,5758.81,Active
+CUST-00093,High Value,Prairies,51,63,Business,338.66,100,2,3,35.1,76.2,33,No,47,Medium,9214.94,Active
+CUST-00094,Growth,Quebec,63,73,Digital,135.45,93.6,0,1,12.1,99,60,Yes,3,Low,4880.26,Active
+CUST-00095,Growth,Quebec,30,61,Standard,152.08,91.8,0,2,16.7,99,45,Yes,3,Low,5315.2,Active
+CUST-00096,High Value,Prairies,53,14,Standard,188.08,79.7,0,1,14.8,99,59,No,27.2,Low,4958.54,Active
+CUST-00097,Loyal,Atlantic,37,61,Family,176.63,100,3,5,42.1,61.1,5,No,68,Medium,4106.65,Active
+CUST-00098,At Risk,Atlantic,66,22,Business,259.97,66.9,6,9,68,28,-22,Yes,96,High,3821.56,Churned
+CUST-00099,High Value,Ontario,45,80,Digital,168.84,100,0,1,21.4,99,42,Yes,3,Low,6189.67,Active
+CUST-00100,High Value,Ontario,27,21,Premium,269.98,92.7,1,3,28.4,92.3,41,Yes,28.4,Low,7229.52,Active
+CUST-00101,New,British Columbia,63,92,Standard,104.33,94.1,3,5,39.8,65.4,29,No,54.4,Medium,2972.15,Active
+CUST-00102,High Value,Ontario,52,58,Standard,193.58,97.2,4,4,44.4,54.2,9,Yes,74.9,High,4208.04,Active
+CUST-00103,Growth,Atlantic,27,65,Standard,152.96,100,1,2,29.8,91.6,56,Yes,12,Low,5153.22,Active
+CUST-00104,High Value,Prairies,50,63,Standard,194.23,93.5,3,5,49.5,59.7,21,Yes,58,Medium,4900.42,Active
+CUST-00105,High Value,Quebec,45,77,Premium,260.09,100,3,3,35.9,63.8,21,No,53.5,Medium,7100.46,Active
+CUST-00106,High Value,British Columbia,45,50,Business,316.3,93.1,1,2,19.6,87.6,40,No,31.2,Medium,9136.01,Active
+CUST-00107,Growth,Atlantic,54,75,Family,162.98,98.2,2,4,36.3,79.8,35,Yes,26.7,Low,5206.23,Active
+CUST-00108,Loyal,Atlantic,23,32,Premium,241.64,98.7,4,4,38,58.4,4,No,93.2,High,3891.37,Active
+CUST-00109,Growth,Ontario,45,41,Business,298.25,100,0,1,13.1,99,49,Yes,3,Low,9886.99,Active
+CUST-00110,Loyal,Prairies,25,11,Family,166.01,71.3,0,0,6.9,98,58,No,28.2,Low,4301.98,Active
+CUST-00111,Loyal,Prairies,63,74,Family,161.73,98.6,4,5,51.1,47.5,-3,No,81,High,3571,Churned
+CUST-00112,Loyal,Ontario,27,8,Business,290.4,83,3,5,40.5,61.3,15,No,89.6,High,4237.52,Active
+CUST-00113,Growth,Ontario,35,34,Digital,97.24,66.1,2,2,24.8,75.3,21,Yes,55.5,Medium,2243.33,Active
+CUST-00114,Loyal,British Columbia,30,9,Standard,99.4,78.7,4,4,44.8,50.3,15,No,96,High,1344.88,Active
+CUST-00115,Growth,British Columbia,67,2,Family,208.68,62.1,1,2,19.3,87.4,47,No,59.1,Medium,4078.02,Active
+CUST-00116,Loyal,Prairies,28,85,Premium,211.22,100,2,4,28.6,80.2,46,No,31.4,Medium,6758.62,Active
+CUST-00117,Growth,Ontario,69,19,Family,211.34,89.3,3,3,42.6,63.4,20,No,82.7,High,3555.58,Active
+CUST-00118,Growth,British Columbia,37,84,Business,310.58,100,1,1,26.7,90.5,42,No,16.7,Low,10731.78,Active
+CUST-00119,At Risk,Ontario,65,53,Digital,28,52.8,4,4,39.8,50.7,1,Yes,90.6,High,516.94,Active
+CUST-00120,Loyal,Prairies,23,61,Family,141.46,99.3,3,4,32.1,70.7,14,No,56.6,Medium,3579.22,Active
+CUST-00121,High Value,Prairies,42,83,Family,194.36,100,3,4,39.6,68.4,33,Yes,41.8,Medium,5820.3,Active
+CUST-00122,New,Quebec,40,8,Digital,28.63,54,4,4,45.5,53.8,7,Yes,96,High,384.79,Churned
+CUST-00123,High Value,Prairies,61,40,Family,254.06,84.8,4,6,55.6,49.9,4,No,96,High,4146.26,Churned
+CUST-00124,Growth,Quebec,68,89,Standard,97.63,100,1,1,19.4,86.5,57,No,7.7,Low,3575.6,Active
+CUST-00125,At Risk,Atlantic,39,79,Business,243.44,91.4,3,7,52.8,66.2,19,Yes,48.5,Medium,6908.83,Active
+CUST-00126,Growth,Prairies,30,29,Business,303.41,88.5,4,6,51.4,56.9,8,Yes,85,High,5252.03,Churned
+CUST-00127,Growth,British Columbia,33,33,Standard,125.11,75.6,0,0,13.2,99,43,Yes,5,Low,4012.28,Active
+CUST-00128,New,Atlantic,65,54,Family,96.34,92.8,3,5,48.8,57.2,15,No,79.3,High,1983.26,Active
+CUST-00129,At Risk,Quebec,38,20,Digital,72.78,44.5,2,7,41.2,64.7,8,No,84.9,High,1202.18,Churned
+CUST-00130,Growth,Prairies,44,7,Standard,99.36,73,4,4,41.8,53,12,No,96,High,1326.46,Churned
+CUST-00131,New,Quebec,34,86,Business,249.35,100,0,0,12.2,99,68,No,3,Low,9275.82,Active
+CUST-00132,At Risk,Ontario,41,10,Standard,62.67,49.3,3,4,34.6,62.9,19,No,96,High,853.57,Churned
+CUST-00133,New,British Columbia,28,27,Family,106.49,74,4,5,44.8,53.1,19,No,96,High,1613.32,Churned
+CUST-00134,At Risk,Atlantic,46,85,Premium,201.08,90.9,3,7,46.6,65.3,26,Yes,51.1,Medium,5721.13,Active
+CUST-00135,Loyal,Quebec,29,56,Business,304.11,100,0,1,13,99,53,No,5.2,Low,10371.37,Active
+CUST-00136,Loyal,Atlantic,27,9,Standard,114.19,80.8,0,1,13.6,99,66,Yes,18.8,Low,3131.77,Active
+CUST-00137,Growth,Quebec,34,88,Premium,253.38,100,2,2,24.1,79.7,42,Yes,19.4,Low,8723.37,Active
+CUST-00138,New,Ontario,29,60,Digital,34.03,88.4,3,5,47.3,66.7,34,Yes,55.7,Medium,863.48,Active
+CUST-00139,Loyal,Quebec,57,88,Digital,99.5,91.7,3,5,33.8,68.4,15,Yes,35.4,Medium,3139.03,Active
+CUST-00140,New,Prairies,38,78,Digital,82.06,90.7,3,5,40.2,58.1,22,No,64.1,Medium,2091.05,Active
+CUST-00141,New,Quebec,38,34,Family,140.76,91,3,5,38.2,67.7,33,Yes,60.6,Medium,3118.12,Active
+CUST-00142,High Value,Prairies,40,82,Standard,175.75,97.7,1,2,22.1,84.6,36,No,20.9,Low,5908.36,Active
+CUST-00143,High Value,Quebec,48,32,Business,369.73,99.5,2,3,31.2,81.5,26,Yes,36,Medium,9760.87,Active
+CUST-00144,Loyal,Ontario,64,14,Digital,56.75,62.5,4,4,45.2,54.6,16,Yes,96,High,793.36,Active
+CUST-00145,High Value,British Columbia,65,84,Digital,144,100,4,6,51.1,53.9,-4,Yes,58.8,Medium,3884.54,Active
+CUST-00146,Growth,Ontario,35,60,Premium,211.77,99.6,2,4,38.8,73.8,36,No,52.9,Medium,5480.18,Active
+CUST-00147,Growth,Quebec,33,11,Premium,245.09,73.2,1,3,28.9,88.9,41,Yes,39.6,Medium,5848.34,Active
+CUST-00148,Loyal,British Columbia,30,34,Digital,109.01,70.2,2,2,26.4,78.8,30,No,65.4,Medium,2320.6,Active
+CUST-00149,Loyal,Prairies,58,33,Family,185.87,96.1,3,4,42.6,59.1,18,No,84.2,High,3311.09,Active
+CUST-00150,High Value,Atlantic,65,41,Premium,229.47,92.8,2,3,36.6,77.2,29,No,57,Medium,5376.48,Active
+CUST-00151,Growth,Atlantic,48,68,Business,290.53,100,3,4,46.3,65.8,18,No,66.1,Medium,7037.22,Active
+CUST-00152,At Risk,Ontario,65,94,Standard,73.99,85,2,7,40.5,73.8,36,Yes,28.3,Low,2468.75,Active
+CUST-00153,Loyal,Ontario,58,37,Standard,129.32,91.2,1,1,22.8,93.9,50,Yes,20.9,Low,3823.73,Active
+CUST-00154,At Risk,Atlantic,28,87,Standard,51.46,86.8,3,4,35.2,68.9,24,Yes,35.9,Medium,1614.2,Active
+CUST-00155,Growth,British Columbia,54,81,Business,297.37,100,2,2,36.6,70.6,37,No,45.1,Medium,8674.88,Active
+CUST-00156,High Value,Quebec,66,16,Business,315.48,96.8,4,5,48.8,49.2,2,No,96,High,4467.2,Churned
+CUST-00157,High Value,Ontario,36,45,Digital,135.95,86,4,4,39.7,53.3,12,No,86.6,High,2509.91,Churned
+CUST-00158,At Risk,Quebec,24,76,Standard,66.07,81.5,4,5,51.4,49.6,18,No,89.9,High,1364.87,Active
+CUST-00159,High Value,Quebec,47,31,Family,233.27,94.9,0,0,21.2,98.7,53,No,20,Low,6809.15,Active
+CUST-00160,Loyal,Atlantic,63,15,Family,132.94,84,3,3,33.6,65.1,9,No,83.3,High,2174.37,Churned
+CUST-00161,Growth,British Columbia,59,8,Standard,123.75,68.1,2,3,32.5,74.6,43,No,78.7,High,2048.56,Churned
+CUST-00162,High Value,Prairies,37,37,Business,339.36,88.3,0,0,20.4,96.9,66,No,17.3,Low,10254.1,Active
+CUST-00163,At Risk,Atlantic,66,29,Business,279.92,74.9,5,8,65.6,29.8,-19,No,96,High,4291.17,Churned
+CUST-00164,Loyal,Quebec,35,83,Business,302.52,100,2,2,24.5,83.2,47,No,25.8,Low,9930.52,Active
+CUST-00165,Growth,Ontario,52,54,Business,290.66,100,4,4,47.9,50.2,15,No,87.9,High,5533.59,Churned
+CUST-00166,Loyal,British Columbia,30,90,Business,269.71,100,4,5,47.3,53.4,5,No,67.8,Medium,6984.41,Active
+CUST-00167,Growth,Prairies,30,29,Digital,98.46,81.2,2,3,36.6,77,33,Yes,54.5,Medium,2244.89,Active
+CUST-00168,Growth,Prairies,56,21,Family,154.09,78.5,4,4,49.8,53.8,20,Yes,92.5,High,2348.33,Active
+CUST-00169,Loyal,Prairies,52,88,Standard,135.98,100,1,3,20,90.8,49,No,6.6,Low,4994.82,Active
+CUST-00170,New,British Columbia,32,60,Business,266.78,95.6,0,1,12.5,99,63,Yes,3,Low,9299.95,Active
+CUST-00171,High Value,British Columbia,27,43,Standard,191.92,93.1,2,3,27.7,77.5,20,No,47.3,Medium,4866.32,Active
+CUST-00172,Loyal,Prairies,29,85,Standard,121.45,100,4,6,50.6,54,0,Yes,63,Medium,3195.35,Active
+CUST-00173,High Value,Prairies,47,12,Premium,263.18,83.3,3,3,34.8,61.3,17,No,88.4,High,3991.91,Churned
+CUST-00174,Growth,Prairies,56,36,Digital,111.55,85.2,0,1,20.4,99,62,Yes,10.9,Low,3489.06,Active
+CUST-00175,New,Prairies,31,41,Digital,61.94,77.9,1,2,19.5,86.2,55,No,37.6,Medium,1667.55,Active
+CUST-00176,At Risk,Atlantic,57,91,Premium,137.06,75.4,4,6,46.1,52.2,-2,No,82,High,3211.32,Active
+CUST-00177,Loyal,Ontario,65,38,Standard,80.01,72.7,2,4,37.9,74.4,37,No,61.1,Medium,1793.98,Active
+CUST-00178,High Value,Atlantic,49,64,Standard,139.07,98.5,3,3,43.9,67.3,12,Yes,45.7,Medium,3829.15,Active
+CUST-00179,Loyal,British Columbia,40,31,Family,195.94,88.4,2,3,32,73.6,22,No,62.3,Medium,4227.6,Active
+CUST-00180,Growth,Ontario,27,6,Digital,125.58,57.6,2,3,27,77.3,39,Yes,62.5,Medium,2422.44,Active
+CUST-00181,Loyal,Quebec,66,18,Family,176.47,65.9,1,3,24.4,88,33,Yes,44.3,Medium,4172.81,Active
+CUST-00182,New,Atlantic,26,14,Family,111.72,81.1,1,1,25.5,87.5,45,Yes,31.5,Medium,2858.91,Active
+CUST-00183,High Value,British Columbia,56,87,Family,231.85,100,1,1,24.8,88.6,57,Yes,5.5,Low,8541.35,Active
+CUST-00184,New,Atlantic,48,36,Premium,188.89,88.4,2,4,30.4,82.6,40,Yes,39.4,Medium,4939.1,Active
+CUST-00185,New,Prairies,53,4,Premium,193.63,77.5,0,2,24.1,99,45,Yes,29.8,Low,4839.98,Active
+CUST-00186,High Value,Ontario,55,77,Digital,177.37,100,3,3,36.9,72.8,17,Yes,42.7,Medium,5187.01,Active
+CUST-00187,At Risk,Atlantic,38,82,Standard,63.66,67.2,4,5,46.5,56.4,17,Yes,65.2,Medium,1632.5,Active
+CUST-00188,At Risk,British Columbia,26,88,Standard,116.84,73.6,6,11,68,28,-21,No,96,High,2411.58,Active
+CUST-00189,High Value,Prairies,48,19,Standard,203.1,69.9,4,4,48.3,52.3,5,Yes,96,High,2930.73,Active
+CUST-00190,Growth,Atlantic,36,63,Standard,156.09,87.4,1,2,28.7,83.5,48,No,27.6,Low,4792.28,Active
+CUST-00191,Loyal,Quebec,30,71,Premium,234.18,100,1,1,20.5,86.3,42,No,18.5,Low,7741.99,Active
+CUST-00192,High Value,British Columbia,53,4,Family,222.31,82.4,3,4,38.6,63,32,No,89.3,High,3175.92,Active
+CUST-00193,New,Quebec,66,46,Family,114.93,77.3,3,4,38.9,64,21,No,73,High,2413.53,Active
+CUST-00194,Loyal,Prairies,42,20,Digital,60.32,58.5,4,6,48,47.9,11,No,96,High,875.85,Active
+CUST-00195,At Risk,Prairies,62,35,Family,155.91,71.4,3,8,45.6,65.9,35,Yes,66.9,Medium,3290.95,Active
+CUST-00196,Loyal,Atlantic,63,65,Standard,108.14,89.7,4,4,39.1,57.7,20,No,81.2,High,2296.24,Active
+CUST-00197,Growth,Atlantic,56,67,Premium,190.43,96.2,0,0,12.9,99,45,No,3.7,Low,6734.37,Active
+CUST-00198,High Value,Atlantic,53,85,Standard,143.57,100,2,2,32.9,83,41,Yes,21.7,Low,4844.63,Active
+CUST-00199,At Risk,British Columbia,25,38,Premium,155,74.9,4,5,49.1,48.3,-4,No,96,High,2501.7,Active
+CUST-00200,Loyal,Prairies,58,24,Premium,200.45,94,3,4,42.6,68.6,24,Yes,68.9,Medium,3960.49,Active
+CUST-00201,At Risk,Atlantic,51,59,Premium,193.8,72.9,3,5,45.5,64,8,Yes,67.8,Medium,4477.94,Active
+CUST-00202,Growth,British Columbia,54,11,Standard,116.93,69.7,3,4,36,62,4,No,92.2,High,1683.09,Churned
+CUST-00203,Loyal,Quebec,26,77,Business,311.52,100,0,1,12.8,98.9,53,No,3,Low,11336.21,Active
+CUST-00204,At Risk,Atlantic,47,65,Business,231.73,80.9,2,7,39.8,71.1,21,Yes,47.2,Medium,6338.74,Active
+CUST-00205,Loyal,Atlantic,52,21,Premium,225.36,71.3,0,0,9.4,99,62,Yes,8.5,Low,6841.93,Active
+CUST-00206,Loyal,Quebec,52,24,Premium,176.17,73.3,1,2,19.8,89.5,46,No,48.3,Medium,4134.01,Active
+CUST-00207,At Risk,British Columbia,44,41,Business,221.13,71.3,4,8,62.1,48.5,15,Yes,96,High,3628.74,Churned
+CUST-00208,High Value,Quebec,25,24,Standard,143.52,71.3,1,1,17.3,87.9,58,No,43.9,Medium,3481.51,Active
+CUST-00209,New,British Columbia,38,85,Business,270.91,100,1,1,24,85.7,55,No,21,Low,9175.72,Active
+CUST-00210,Growth,Ontario,67,26,Business,275.97,89.1,3,5,48.7,63,12,Yes,72.1,High,5343.33,Active
+CUST-00211,High Value,Prairies,60,12,Standard,183.51,69.4,2,4,39.1,71.4,18,Yes,68,Medium,3457.33,Active
+CUST-00212,Growth,Ontario,46,2,Premium,218.63,80.1,3,3,40.8,59.6,18,No,95.6,High,2836.07,Active
+CUST-00213,New,Atlantic,69,50,Digital,63.36,72.1,3,3,42.2,58,4,No,78,High,1296.35,Active
+CUST-00214,Growth,Ontario,28,10,Family,162.15,83.2,3,5,47.6,61.1,4,Yes,75.7,High,2800.98,Active
+CUST-00215,At Risk,Quebec,66,28,Business,217.2,54.8,5,7,63.1,39.9,-3,Yes,96,High,3310.13,Churned
+CUST-00216,New,British Columbia,45,81,Digital,32.93,100,0,1,21.1,96.9,47,No,4.2,Low,1203.06,Active
+CUST-00217,New,British Columbia,29,54,Standard,60.48,90.6,1,1,19.8,92.9,46,No,31.2,Medium,1768.68,Active
+CUST-00218,Growth,Ontario,45,77,Premium,186.62,99.4,0,0,18,99,66,No,3,Low,6791.1,Active
+CUST-00219,Growth,Ontario,25,52,Family,152.84,89,2,4,31,77.8,40,No,45.4,Medium,4051.48,Active
+CUST-00220,New,Ontario,69,21,Family,100.56,67.9,2,2,25.9,73,26,No,68.5,Medium,1966.95,Active
+CUST-00221,Loyal,Atlantic,40,80,Digital,78.46,90,2,2,29.9,75.9,21,Yes,21.1,Low,2620.72,Active
+CUST-00222,Growth,Quebec,38,65,Digital,87.96,80.2,0,2,27.4,91.4,36,No,19.8,Low,2839.88,Active
+CUST-00223,New,British Columbia,38,81,Digital,41.41,89.5,1,2,27,90.2,35,No,22.6,Low,1375.72,Active
+CUST-00224,At Risk,Atlantic,31,9,Family,144.81,43.2,5,6,58.2,31.9,-15,No,96,High,1959.28,Active
+CUST-00225,High Value,British Columbia,61,75,Family,209.09,95.9,2,4,41.8,71.8,41,Yes,35,Medium,6366.79,Active
+CUST-00226,Loyal,Ontario,49,9,Digital,95.37,62.2,4,6,49.8,48.5,6,Yes,96,High,1290.36,Active
+CUST-00227,New,Atlantic,34,69,Digital,28,89.8,3,5,39.8,65.1,25,No,64.6,Medium,688.3,Active
+CUST-00228,High Value,British Columbia,24,14,Standard,159.13,67.1,2,4,40.7,75.3,35,Yes,60.2,Medium,3250.07,Active
+CUST-00229,New,Prairies,28,36,Digital,64.58,68.6,3,5,39,60.7,15,Yes,74.8,High,1277.13,Active
+CUST-00230,Growth,Ontario,27,39,Family,187.67,91.6,4,5,48.3,51.1,18,No,92.6,High,3160.74,Churned
+CUST-00231,At Risk,Prairies,22,75,Digital,33.52,76.3,4,8,60.9,44.5,-4,No,93.2,High,669.53,Churned
+CUST-00232,Growth,Atlantic,66,44,Business,263.18,87.6,3,4,39.9,67.7,11,Yes,56.1,Medium,6280,Active
+CUST-00233,At Risk,Prairies,44,29,Business,223,72.5,3,4,34.2,63.4,15,Yes,70.2,High,4454.2,Active
+CUST-00234,At Risk,Ontario,25,79,Standard,93.95,88.6,3,7,45.6,63.5,32,No,62.3,Medium,2432.93,Active
+CUST-00235,Loyal,Atlantic,59,2,Digital,69.84,62.6,3,4,43.3,63,20,No,96,High,900.94,Churned
+CUST-00236,New,British Columbia,34,70,Family,96.01,84.7,2,2,34.1,79.3,38,Yes,27.5,Low,3009.91,Active
+CUST-00237,Growth,Ontario,27,7,Digital,140.13,66.1,1,1,18.6,85.4,51,No,51.3,Medium,2998.22,Active
+CUST-00238,Loyal,Quebec,23,82,Family,173.79,100,1,1,19.4,93.6,50,No,8.5,Low,6230.37,Active
+CUST-00239,Loyal,Prairies,48,82,Business,256.74,100,4,6,42.1,54.4,23,Yes,59.2,Medium,6861.12,Active
+CUST-00240,Growth,Ontario,27,45,Standard,100.66,71.8,2,3,32.7,76.5,19,No,56,Medium,2412.82,Active
+CUST-00241,New,Ontario,22,60,Premium,174.51,100,2,2,34.3,77.9,32,No,43.6,Medium,4808.1,Active
+CUST-00242,High Value,Quebec,60,2,Standard,144.63,58.7,3,5,43.2,54.1,7,No,96,High,1865.73,Active
+CUST-00243,Growth,British Columbia,58,50,Business,280.39,100,0,1,24.6,99,54,Yes,4.2,Low,9461.48,Active
+CUST-00244,Growth,Prairies,37,72,Family,166.33,100,2,4,36.8,76.4,46,Yes,25.1,Low,5316.24,Active
+CUST-00245,Loyal,Quebec,38,18,Standard,82.51,58.6,3,4,32,62.3,26,Yes,77,High,1465.38,Active
+CUST-00246,High Value,British Columbia,51,90,Standard,186.96,99,4,5,44.6,60.2,11,Yes,60.7,Medium,5080.45,Active
+CUST-00247,Growth,Atlantic,38,93,Family,211.04,100,3,3,42.5,65.6,14,No,54.2,Medium,6038.7,Active
+CUST-00248,At Risk,Atlantic,26,81,Family,100.99,69.9,5,9,64.4,33.5,-11,No,96,High,2020.81,Churned
+CUST-00249,New,Ontario,49,69,Digital,41.63,96.3,3,4,39.6,67.6,15,No,65.8,Medium,1014.36,Active
+CUST-00250,New,Ontario,33,87,Business,262.09,100,3,4,42.8,66.3,36,No,60.5,Medium,7060.7,Active
+CUST-00251,At Risk,Prairies,33,22,Business,281.94,63.2,4,5,52.5,48.1,-1,Yes,96,High,4144.52,Active
+CUST-00252,High Value,Quebec,53,43,Family,191.75,80.2,3,4,42.5,64.9,29,Yes,65.1,Medium,4247.65,Active
+CUST-00253,Loyal,Ontario,61,62,Family,177.22,96.3,3,3,31.6,69.1,13,Yes,42.4,Medium,4952.94,Active
+CUST-00254,Loyal,Quebec,58,46,Business,251.42,87.6,1,2,25,90.8,49,Yes,21.4,Low,7615.01,Active
+CUST-00255,Loyal,Quebec,63,53,Digital,76.04,87.6,0,2,17.9,99,67,Yes,3,Low,2602.85,Active
+CUST-00256,High Value,Ontario,67,24,Family,220.07,94.7,3,3,42.9,59.9,12,No,89.5,High,3532.12,Churned
+CUST-00257,At Risk,British Columbia,53,18,Standard,75.62,49.8,3,6,49.4,63.5,25,Yes,85.7,High,1224.59,Churned
+CUST-00258,Growth,Ontario,41,32,Business,311.84,85.5,0,1,12.1,99,64,No,18.2,Low,9231.71,Active
+CUST-00259,High Value,Ontario,32,32,Business,319,99,2,4,39,77.6,32,No,61.8,Medium,6940.16,Active
+CUST-00260,At Risk,Ontario,31,86,Digital,64.92,72.3,3,3,41.4,62.4,28,No,60.3,Medium,1745.44,Active
+CUST-00261,Growth,Ontario,31,16,Family,211.74,69.8,1,2,20,90,60,Yes,30.8,Medium,5483.22,Active
+CUST-00262,Loyal,Ontario,65,23,Family,155.46,69.5,2,4,26.5,74.3,23,No,71.4,High,2987.63,Active
+CUST-00263,At Risk,Atlantic,61,54,Standard,78.27,60.1,3,6,40.5,64.1,27,Yes,66.4,Medium,1793.01,Active
+CUST-00264,Growth,Ontario,67,71,Family,192,100,1,2,24.6,86.5,30,No,26.9,Low,6057.22,Active
+CUST-00265,High Value,Quebec,26,46,Standard,181.88,92.6,3,3,38,65.1,19,Yes,62.6,Medium,4159.96,Active
+CUST-00266,New,Atlantic,57,44,Family,95.99,88.2,2,4,40.5,74.4,36,Yes,41,Medium,2551.41,Active
+CUST-00267,At Risk,Ontario,66,56,Digital,28,59.5,5,7,62.4,33.5,-19,No,96,High,497.28,Active
+CUST-00268,High Value,Atlantic,48,7,Digital,138.31,64.2,2,4,36.7,69.4,18,No,83.2,High,2165.1,Active
+CUST-00269,High Value,Prairies,23,23,Family,242.68,94.5,2,4,36.4,77.7,22,No,61.1,Medium,5113.75,Active
+CUST-00270,High Value,Ontario,43,88,Family,192.04,100,3,4,37.5,63.8,11,No,53.2,Medium,5443.18,Active
+CUST-00271,New,Prairies,59,54,Digital,48.86,78.4,4,5,42.3,54.2,0,No,85.2,High,953.94,Churned
+CUST-00272,Loyal,British Columbia,68,58,Premium,226.98,100,1,2,17.1,95,40,Yes,6.3,Low,7736.84,Active
+CUST-00273,Growth,British Columbia,57,90,Standard,137.21,100,2,3,30.9,80.2,27,No,27.3,Low,4553.45,Active
+CUST-00274,New,British Columbia,56,4,Digital,33.56,50.8,2,4,31.4,79.1,48,Yes,72.2,High,582.74,Active
+CUST-00275,At Risk,British Columbia,67,73,Digital,92.28,80.6,5,7,59.3,42.1,4,Yes,96,High,1780.08,Churned
+CUST-00276,At Risk,British Columbia,63,55,Business,222.59,78.6,5,6,58.9,38.6,7,No,96,High,3933.17,Churned
+CUST-00277,At Risk,British Columbia,50,91,Family,134.44,74.7,3,7,48.3,58.8,24,Yes,55.5,Medium,3791.21,Active
+CUST-00278,Loyal,British Columbia,23,77,Standard,120.12,99.8,0,2,19.4,99,62,No,3,Low,4371.17,Active
+CUST-00279,At Risk,Ontario,31,84,Family,119.11,90.6,3,6,39.7,63,21,Yes,41.1,Medium,3592.6,Active
+CUST-00280,At Risk,Ontario,57,60,Premium,140.97,69.3,4,7,54.6,43.4,6,No,96,High,2554.38,Active
+CUST-00281,Loyal,Ontario,33,65,Digital,61.47,76.7,3,4,35.9,64.5,8,No,64.4,Medium,1491.14,Active
+CUST-00282,At Risk,Ontario,58,41,Business,235.27,67.5,4,8,56.7,49.8,-2,Yes,95.9,High,3865.02,Churned
+CUST-00283,Growth,Atlantic,29,67,Premium,229.49,100,2,4,34.9,74.9,26,Yes,28.1,Low,7107.76,Active
+CUST-00284,New,Atlantic,29,77,Standard,89.79,91.9,2,2,29.5,71.9,24,No,45.7,Medium,2577.33,Active
+CUST-00285,At Risk,Prairies,36,21,Digital,28,55.4,4,9,53.1,48.2,0,Yes,96,High,409.08,Churned
+CUST-00286,Loyal,Atlantic,45,51,Family,194.02,84.7,0,1,9.6,99,66,No,12.1,Low,6288.58,Active
+CUST-00287,High Value,Ontario,40,49,Business,304.07,100,3,5,37.3,65.1,32,No,65,Medium,6905.43,Active
+CUST-00288,Growth,British Columbia,33,79,Premium,209.51,100,0,2,26,94.4,38,No,3,Low,7661.78,Active
+CUST-00289,Growth,Ontario,38,47,Family,199.97,85.6,3,4,42.9,66.7,26,Yes,66,Medium,4469.33,Active
+CUST-00290,Loyal,Prairies,44,52,Business,306.67,93.9,1,2,21.5,88.6,47,No,30,Low,8979.3,Active
+CUST-00291,At Risk,Ontario,33,61,Business,236.14,89.3,5,7,54.3,37.5,-5,No,96,High,4300.11,Churned
+CUST-00292,New,Ontario,39,26,Premium,197.63,88.7,1,3,26.8,86.9,29,Yes,27.4,Low,5416.64,Active
+CUST-00293,At Risk,British Columbia,47,3,Digital,69.63,38.8,4,8,61,46.3,14,Yes,96,High,904.49,Churned
+CUST-00294,New,Prairies,22,6,Business,259.37,77.4,2,2,34.2,76.5,35,No,69.9,Medium,4657.77,Active
+CUST-00295,Loyal,British Columbia,39,26,Business,277.24,91.9,2,4,32.9,76.8,20,No,66.9,Medium,5627.42,Active
+CUST-00296,High Value,Atlantic,47,36,Digital,170.63,87,3,5,45.2,58.3,5,No,81,High,3183.96,Active
+CUST-00297,Growth,Ontario,55,42,Digital,130.92,72.9,2,4,32.3,72.7,15,No,68,Medium,2820.02,Active
+CUST-00298,New,Atlantic,35,20,Standard,58.68,75.8,1,2,29,86.1,45,Yes,39.9,Medium,1444.58,Active
+CUST-00299,New,Atlantic,67,11,Digital,28,67.8,2,3,39.2,69.9,22,Yes,63.8,Medium,546.17,Active
+CUST-00300,At Risk,Atlantic,36,89,Standard,80.13,88.8,5,7,58.7,38.7,-10,Yes,90.6,High,1738.98,Churned
+CUST-00301,At Risk,Atlantic,67,18,Family,133.96,51.9,3,4,46,64.7,22,Yes,86.4,High,2152.47,Churned
+CUST-00302,New,Ontario,39,55,Family,128.16,89.2,1,2,32.1,88.4,51,Yes,16.3,Low,4103.17,Active
+CUST-00303,New,Quebec,36,71,Standard,102.44,100,2,4,41,76.3,35,Yes,34.2,Medium,3097.17,Active
+CUST-00304,At Risk,Prairies,27,14,Premium,176.36,63.5,2,7,47,65.7,24,No,80.3,High,2963.91,Active
+CUST-00305,High Value,Prairies,67,50,Premium,289.65,90.2,2,2,27.2,75.1,28,No,49.8,Medium,7396.5,Active
+CUST-00306,Loyal,Atlantic,52,65,Family,184.65,100,1,3,25.8,91.2,47,No,27,Low,5722.3,Active
+CUST-00307,Growth,Prairies,36,4,Family,197.44,80.1,3,3,38.1,65.3,14,Yes,80.4,High,3136.93,Active
+CUST-00308,New,British Columbia,52,79,Standard,38.71,82.5,2,3,31.4,74.2,21,Yes,28.7,Low,1236.55,Active
+CUST-00309,At Risk,Prairies,39,29,Family,127.34,51.1,5,8,61.3,39.3,-2,Yes,96,High,1952.12,Churned
+CUST-00310,At Risk,British Columbia,40,75,Business,259.24,93,4,5,52.7,53.6,-2,Yes,67.1,Medium,6395.97,Active
+CUST-00311,New,Quebec,51,33,Digital,48.89,80.8,2,4,38,69.4,36,No,66.7,Medium,1024.93,Active
+CUST-00312,High Value,Prairies,60,55,Digital,140.88,79.8,1,1,16.9,92.4,37,No,27.7,Low,4221.33,Active
+CUST-00313,At Risk,Atlantic,53,12,Family,162.09,56.6,6,6,56.2,28,-4,No,96,High,2236.84,Churned
+CUST-00314,Growth,Ontario,55,30,Business,318.13,99.9,4,6,48.9,52.9,-3,No,96,High,4905.56,Churned
+CUST-00315,Growth,British Columbia,61,41,Family,148.56,83.2,4,6,53.2,51.7,12,No,96,High,2437.87,Churned
+CUST-00316,High Value,Quebec,64,30,Business,325.09,100,2,4,29.6,77.9,44,No,54.3,Medium,7453.01,Active
+CUST-00317,At Risk,Ontario,25,51,Family,166.41,66.9,3,5,42.6,66.7,24,Yes,64.5,Medium,3824.1,Active
+CUST-00318,New,Quebec,56,57,Family,116.21,82.5,2,2,23.9,79.8,39,No,52.3,Medium,2988.46,Active
+CUST-00319,High Value,Atlantic,57,94,Digital,117.52,98.5,3,4,40.7,66.5,28,Yes,38.6,Medium,3703.29,Active
+CUST-00320,Growth,Prairies,43,42,Premium,236.15,88.5,1,1,21.5,85.4,41,No,37.7,Medium,6374.63,Active
+CUST-00321,High Value,Quebec,52,58,Premium,290.87,100,1,3,34.8,83.3,39,No,35.1,Medium,8406.72,Active
+CUST-00322,Loyal,Atlantic,51,72,Family,161.81,100,1,2,18.7,93,56,No,13.1,Low,5521.28,Active
+CUST-00323,Growth,Atlantic,27,8,Family,164.18,82.8,4,6,45.4,46.1,-10,No,96,High,2206.58,Churned
+CUST-00324,Growth,Atlantic,46,25,Family,199.89,81,1,1,20.6,89.6,40,No,46.8,Medium,4762.58,Active
+CUST-00325,At Risk,Quebec,67,22,Premium,193.85,49.8,5,9,68,33.4,-4,Yes,96,High,2849.59,Active
+CUST-00326,Loyal,Quebec,22,79,Digital,112.56,90.6,1,1,15.8,96.6,67,Yes,6.1,Low,4053.51,Active
+CUST-00327,At Risk,Quebec,25,21,Family,154.72,66,2,4,39.5,74,37,No,70.2,High,2978.98,Active
+CUST-00328,At Risk,Atlantic,52,85,Family,167.37,89.9,4,4,45.1,55,-1,No,80.4,High,3879.3,Churned
+CUST-00329,High Value,British Columbia,28,66,Business,353.69,100,4,5,48.5,52.1,-2,No,80.6,High,7580.28,Active
+CUST-00330,Growth,British Columbia,23,37,Business,297.08,100,2,2,28.8,73.8,39,No,50.2,Medium,7217.26,Active
+CUST-00331,At Risk,Quebec,38,62,Family,125.87,63.1,2,5,40.8,71.9,14,Yes,53.9,Medium,3257.26,Active
+CUST-00332,New,Prairies,38,70,Business,240.6,96.2,3,3,43.7,59.5,29,No,66.3,Medium,5862.46,Active
+CUST-00333,Growth,Atlantic,50,74,Digital,124.06,94.6,1,3,33.3,80.9,34,No,28.5,Low,3911.61,Active
+CUST-00334,Loyal,Quebec,27,83,Premium,214.41,100,2,2,24.6,76.2,30,No,36.9,Medium,6609.83,Active
+CUST-00335,At Risk,Quebec,51,74,Digital,68.57,69.2,5,8,54.7,32.2,-11,No,96,High,1328.89,Churned
+CUST-00336,High Value,Quebec,31,33,Standard,183.38,88.9,2,3,32.2,76.6,24,Yes,45.5,Medium,4544.16,Active
+CUST-00337,At Risk,Ontario,63,37,Family,132.29,59.6,5,6,61.3,38.3,-10,Yes,96,High,2123.25,Churned
+CUST-00338,High Value,British Columbia,29,33,Family,250.19,85.1,4,6,44.8,49,-5,No,96,High,3925.48,Churned
+CUST-00339,At Risk,Prairies,66,45,Business,243.02,74.1,4,9,63.3,51.3,20,Yes,87.9,High,4429.77,Churned
+CUST-00340,At Risk,Ontario,66,15,Digital,87.75,61.1,3,7,52.6,56.4,14,No,96,High,1234.64,Churned
+CUST-00341,At Risk,Ontario,55,44,Family,157.69,61.1,2,3,32.3,79.4,40,Yes,47.2,Medium,4015.42,Active
+CUST-00342,Loyal,British Columbia,68,20,Premium,224.08,74.6,4,4,45.6,46.5,-6,No,96,High,3253.64,Active
+CUST-00343,New,Quebec,26,32,Business,266.33,87.5,2,4,41.9,67.5,23,No,64.6,Medium,5660.05,Active
+CUST-00344,Loyal,Atlantic,66,10,Premium,225.01,66.5,3,3,29.8,67.3,11,No,93.8,High,3153.74,Churned
+CUST-00345,Growth,Prairies,23,26,Standard,150.94,75.9,2,4,35,73.1,27,Yes,49.2,Medium,3544.67,Active
+CUST-00346,At Risk,Ontario,51,14,Business,252.28,73.5,5,9,67.2,32.4,-11,Yes,96,High,3526.87,Active
+CUST-00347,High Value,Atlantic,24,25,Standard,197.51,72.8,2,2,35.6,74.5,25,Yes,50.7,Medium,4567.22,Active
+CUST-00348,Growth,Atlantic,30,15,Family,210.44,75.9,1,1,20.5,86.5,55,No,48.9,Medium,4745,Active
+CUST-00349,Growth,Quebec,36,80,Standard,116.19,100,3,5,42.8,61.2,26,No,60.9,Medium,3048.59,Active
+CUST-00350,At Risk,Quebec,44,34,Premium,180.43,56.2,4,7,54.5,44.1,-13,Yes,96,High,2847.19,Churned
+CUST-00351,At Risk,Quebec,40,31,Family,121.84,68.8,3,6,46.1,61.2,31,No,85.5,High,2120.02,Active
+CUST-00352,New,Ontario,56,3,Business,268.06,67.4,3,3,40.2,67.5,20,Yes,77.1,High,4394.04,Churned
+CUST-00353,Growth,Ontario,25,79,Premium,226.6,100,3,5,44.2,61.7,14,Yes,43.8,Medium,6622.61,Active
+CUST-00354,High Value,Quebec,28,92,Digital,182.9,100,2,3,32.5,76.5,39,No,34,Medium,5882.06,Active
+CUST-00355,High Value,Prairies,43,18,Premium,292.73,95.5,3,3,38.7,60.9,24,No,80.2,High,5030.27,Churned
+CUST-00356,At Risk,Prairies,64,68,Family,100.74,77.4,4,6,52.2,51.6,3,No,93.2,High,1948.71,Active
+CUST-00357,High Value,Quebec,41,68,Premium,231.5,96.6,2,4,37.6,76.7,22,No,47.3,Medium,6390.79,Active
+CUST-00358,High Value,British Columbia,43,17,Premium,236.22,82.9,3,3,37.2,62.7,5,No,87.3,High,3736.06,Active
+CUST-00359,Growth,Prairies,30,78,Family,198.57,100,3,5,43.2,70.7,18,Yes,41.1,Medium,5882.04,Active
+CUST-00360,At Risk,Ontario,25,32,Standard,92.25,60.9,2,2,29.4,75.7,21,No,69.5,Medium,1879.13,Active
+CUST-00361,Growth,Atlantic,36,91,Digital,127.07,100,3,4,43,69.7,15,Yes,34.4,Medium,4065.99,Active
+CUST-00362,At Risk,Prairies,63,92,Digital,39.86,73.9,2,6,41.2,76.2,29,Yes,29,Low,1317.77,Active
+CUST-00363,High Value,Ontario,61,27,Family,239.66,96.6,1,1,22.6,90,60,No,41.4,Medium,5986.23,Active
+CUST-00364,High Value,Atlantic,25,78,Business,328.41,100,0,1,17.7,98.7,67,No,3,Low,11980.4,Active
+CUST-00365,High Value,Quebec,54,76,Premium,272.88,98.3,4,6,52.8,49.6,12,Yes,66.9,Medium,6766.88,Active
+CUST-00366,New,Prairies,46,24,Standard,47.82,67.9,3,5,40.4,59.6,3,No,87.3,High,786.45,Active
+CUST-00367,Growth,Quebec,38,44,Business,258.26,100,3,5,45.2,60.1,16,No,71.7,High,5437.41,Active
+CUST-00368,At Risk,Ontario,32,72,Premium,185.54,87.7,2,6,46.4,77.4,21,Yes,31.6,Medium,5713.15,Active
+CUST-00369,High Value,British Columbia,53,19,Premium,230.45,77.1,3,3,36.3,67.1,15,Yes,75.4,High,4179.9,Active
+CUST-00370,New,Quebec,63,34,Family,122.67,88,3,5,49.3,60.4,11,No,89.3,High,2083.67,Churned
+CUST-00371,New,Prairies,66,50,Premium,144.45,93.7,0,0,16,99,50,Yes,3,Low,4905.52,Active
+CUST-00372,At Risk,British Columbia,46,6,Premium,199.59,49.7,4,4,43.1,53.2,0,Yes,96,High,2646.56,Active
+CUST-00373,New,Atlantic,28,64,Premium,197.7,98.8,3,4,42.1,65.7,22,No,67.1,Medium,4681.93,Active
+CUST-00374,At Risk,Atlantic,47,19,Standard,53.02,38.1,5,5,54,32.9,0,Yes,96,High,765.08,Churned
+CUST-00375,High Value,Ontario,51,36,Digital,148.84,78.2,0,1,18.1,96.5,45,No,22.3,Low,4350,Active
+CUST-00376,Loyal,Prairies,59,69,Family,198.85,95,2,2,28.5,77.8,32,No,38.9,Medium,5808.01,Active
+CUST-00377,At Risk,British Columbia,55,41,Standard,80.68,70.5,2,4,40.7,70.7,40,Yes,58.7,Medium,1865.64,Active
+CUST-00378,New,Atlantic,68,13,Digital,50.58,74.7,2,2,34.9,74.3,36,No,76.2,High,882.82,Active
+CUST-00379,Loyal,Quebec,48,66,Premium,200.77,100,3,5,38.9,64,10,Yes,47.5,Medium,5499.09,Active
+CUST-00380,At Risk,Ontario,41,64,Business,230.82,89.5,2,2,24.2,78.7,47,Yes,28.1,Low,7086.64,Active
+CUST-00381,Growth,Quebec,63,33,Family,216.35,78.1,1,3,25.9,87.2,46,No,45,Medium,5380.62,Active
+CUST-00382,High Value,British Columbia,62,95,Business,365.13,100,1,3,33.6,84.3,33,No,18.9,Low,12833.59,Active
+CUST-00383,High Value,British Columbia,32,16,Premium,279.04,80.1,1,2,31.1,85.4,55,Yes,37.1,Medium,6909.59,Active
+CUST-00384,Loyal,Quebec,49,18,Business,309.49,94.7,2,2,25,82.2,43,No,57.2,Medium,6599.56,Active
+CUST-00385,New,Quebec,64,73,Digital,50.9,91.9,1,2,29.2,84.1,52,No,29.9,Low,1587.47,Active
+CUST-00386,Loyal,Ontario,66,47,Standard,144.13,91,1,1,24.4,86.6,33,No,38.7,Medium,3929.56,Active
+CUST-00387,Growth,Prairies,65,81,Business,285.37,100,0,2,15.8,99,62,No,3,Low,10487.35,Active
+CUST-00388,Growth,British Columbia,22,30,Premium,239.45,91.3,3,4,36.9,70,23,Yes,67.4,Medium,4925.01,Active
+CUST-00389,New,Ontario,67,8,Family,154.8,73.6,2,3,31.3,77.7,24,No,69.3,Medium,2824.48,Active
+CUST-00390,New,British Columbia,47,92,Family,132.96,100,2,4,40.2,68.5,33,No,36.4,Medium,4218.55,Active
+CUST-00391,Loyal,Prairies,54,64,Standard,103.59,85.6,0,1,9,99,43,Yes,3,Low,3648.44,Active
+CUST-00392,New,Quebec,56,66,Premium,146.62,87.8,3,5,44.3,57.9,23,No,70,Medium,3422.11,Active
+CUST-00393,At Risk,Prairies,25,21,Family,121.55,53.6,3,5,46.2,57.6,28,No,96,High,1775.85,Churned
+CUST-00394,New,Atlantic,69,40,Business,209.6,90.8,4,6,55.2,50.5,-2,No,93.5,High,3514.99,Active
+CUST-00395,At Risk,British Columbia,33,24,Standard,104.97,46,5,10,62.5,28.7,-9,No,96,High,1561.95,Active
+CUST-00396,Growth,Prairies,61,21,Digital,74.19,73.7,4,6,50.5,49.8,-8,No,96,High,1083.92,Active
+CUST-00397,Growth,Ontario,60,64,Premium,254.35,100,1,2,24.7,90.8,48,No,28,Low,7813.63,Active
+CUST-00398,Loyal,Atlantic,53,74,Business,314.46,100,2,4,33.1,78.9,34,Yes,23.7,Low,10186.62,Active
+CUST-00399,Loyal,Ontario,66,85,Family,200.19,100,2,3,34.4,76.2,20,Yes,23.8,Low,6679.54,Active
+CUST-00400,New,Quebec,29,90,Premium,168.23,97.5,3,4,46,68.8,29,Yes,44.6,Medium,5059.01,Active
+CUST-00401,High Value,Prairies,61,33,Premium,277.61,80.3,1,1,26.7,87.9,44,Yes,34,Medium,7453.83,Active
+CUST-00402,Loyal,Prairies,52,64,Digital,98.06,84.2,1,1,15.5,85.8,29,No,22.8,Low,3104.19,Active
+CUST-00403,New,Quebec,64,40,Standard,100.23,73.9,0,1,18.1,93.6,48,No,30.9,Medium,2810.25,Active
+CUST-00404,High Value,Ontario,62,63,Digital,116.85,98.4,1,1,26.1,87.4,47,No,28.7,Low,3564.39,Active
+CUST-00405,Loyal,Atlantic,32,15,Business,302.74,81.9,2,3,26.7,75.7,22,No,60.8,Medium,6177.71,Active
+CUST-00406,High Value,Atlantic,43,87,Digital,143.58,100,3,3,38.8,59.8,13,No,59.3,Medium,3899.06,Active
+CUST-00407,New,Ontario,66,39,Digital,81.34,79.1,0,2,24.8,99,67,Yes,7.6,Low,2614.43,Active
+CUST-00408,High Value,Prairies,54,7,Standard,159.07,61.9,0,1,19.4,98.7,45,No,39.8,Medium,3732.74,Active
+CUST-00409,High Value,Quebec,23,56,Business,310.69,99.3,0,1,20.4,99,45,No,15.4,Low,10025.34,Active
+CUST-00410,At Risk,Quebec,31,16,Business,210.23,62.4,4,4,47.9,48.6,14,Yes,96,High,2976.86,Active
+CUST-00411,New,Prairies,57,11,Family,138.38,70.3,1,1,25.3,86,40,Yes,46.2,Medium,3137.63,Active
+CUST-00412,Loyal,British Columbia,27,22,Digital,81.45,78.1,2,2,33,70.5,23,No,73.1,High,1533.05,Active
+CUST-00413,New,Ontario,58,58,Standard,55.57,80.4,1,1,27.6,86.3,42,Yes,23.3,Low,1724.11,Active
+CUST-00414,At Risk,Quebec,26,4,Standard,54.68,51.7,2,6,47,68.4,27,Yes,77.9,High,893.36,Active
+CUST-00415,Loyal,British Columbia,57,47,Digital,58.56,71.7,2,2,28.1,76.2,24,Yes,38.9,Medium,1594.47,Active
+CUST-00416,Growth,British Columbia,66,70,Standard,131.46,84.9,1,3,22.2,95.2,38,Yes,9.1,Low,4556.67,Active
+CUST-00417,Growth,Quebec,46,26,Business,279.7,88.4,0,2,24.6,96.2,65,Yes,12.5,Low,8416.17,Active
+CUST-00418,New,Quebec,49,25,Family,101.15,72.3,2,4,34.8,75.6,41,Yes,58.5,Medium,2196.98,Active
+CUST-00419,New,Quebec,40,9,Standard,37.91,74.6,1,1,18.5,90.5,44,No,54,Medium,799.52,Active
+CUST-00420,Loyal,Quebec,51,52,Family,149.68,88,1,2,28.1,85.8,52,No,36.8,Medium,4199.42,Active

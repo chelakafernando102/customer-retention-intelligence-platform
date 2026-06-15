@@ -1,0 +1,6 @@
+campaign_id,campaign_name,channel,target_segment,participants,open_rate,click_rate,acceptance_rate,retained_customers,revenue_saved
+CMP-001,Winback Concierge,Outbound Call,At Risk,980,44.4,13.5,11.2,87,291038
+CMP-002,Loyalty Dividend,Email,Loyal,1480,50.4,13.7,7.8,88,173089
+CMP-003,Premium Care Review,Relationship Manager,High Value,620,69.9,25.1,15.6,81,121465
+CMP-004,Early Value Check,In App,New,1100,61.7,19.8,12,110,357847
+CMP-005,Usage Builder,SMS,Growth,920,67.1,19,12.1,83,223811

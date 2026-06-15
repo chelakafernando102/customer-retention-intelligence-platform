@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Customer Retention & Operations Intelligence Platform portfolio dashboard."
+    />
+    <title>Customer Retention & Operations Intelligence Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="side-nav" aria-label="Platform navigation">
+        <a class="brand-lockup" href="#executive" aria-label="Retention Intelligence home">
+          <span class="brand-mark">RI</span>
+          <span>
+            <strong>RetentionIQ</strong>
+            <small>Operations Intelligence</small>
+          </span>
+        </a>
+
+        <nav class="nav-list" aria-label="Dashboard sections">
+          <a href="#executive" class="nav-item is-active">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Executive</span>
+          </a>
+          <a href="#retention" class="nav-item">
+            <i data-lucide="activity"></i>
+            <span>Retention</span>
+          </a>
+          <a href="#operations" class="nav-item">
+            <i data-lucide="headphones"></i>
+            <span>Operations</span>
+          </a>
+          <a href="#campaigns" class="nav-item">
+            <i data-lucide="send"></i>
+            <span>Campaigns</span>
+          </a>
+        </nav>
+
+        <div class="side-status">
+          <span class="status-dot"></span>
+          <span>
+            <strong>Live model</strong>
+            <small>Churn scoring active</small>
+          </span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="top-bar">
+          <div>
+            <p class="eyebrow">Customer Retention & Operations Intelligence Platform</p>
+            <h1>Executive command center for churn, service quality, and revenue retention.</h1>
+          </div>
+
+          <div class="top-actions" aria-label="Dashboard controls">
+            <label class="field">
+              <span>Period</span>
+              <select id="periodFilter">
+                <option value="18">18 months</option>
+                <option value="12">12 months</option>
+                <option value="6">6 months</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Segment</span>
+              <select id="segmentFilter">
+                <option value="All">All segments</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Risk</span>
+              <select id="riskFilter">
+                <option value="All">All risks</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+              </select>
+            </label>
+            <label class="search-field">
+              <i data-lucide="search"></i>
+              <input id="searchInput" type="search" placeholder="Search customers" />
+            </label>
+            <button id="exportButton" class="icon-button primary" type="button" title="Export executive summary">
+              <i data-lucide="download"></i>
+              <span>Export</span>
+            </button>
+          </div>
+        </header>
+
+        <section id="executive" class="kpi-grid" aria-label="Executive KPI summary">
+          <article class="kpi-card">
+            <i data-lucide="shield-check"></i>
+            <span>Retention rate</span>
+            <strong id="kpiRetention">--</strong>
+            <small id="kpiRetentionDelta">--</small>
+          </article>
+          <article class="kpi-card">
+            <i data-lucide="trending-down"></i>
+            <span>Churn rate</span>
+            <strong id="kpiChurn">--</strong>
+            <small id="kpiChurnDelta">--</small>
+          </article>
+          <article class="kpi-card">
+            <i data-lucide="sparkles"></i>
+            <span>CSAT</span>
+            <strong id="kpiCsat">--</strong>
+            <small id="kpiNps">--</small>
+          </article>
+          <article class="kpi-card">
+            <i data-lucide="circle-dollar-sign"></i>
+            <span>Revenue retained</span>
+            <strong id="kpiRevenue">--</strong>
+            <small id="kpiRevenueAtRisk">--</small>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <article class="panel panel-wide" id="retention">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Trend intelligence</p>
+                <h2>Retention momentum</h2>
+              </div>
+              <div class="legend">
+                <span><b class="legend-dot retention"></b>Retention</span>
+                <span><b class="legend-dot churn"></b>Churn</span>
+              </div>
+            </div>
+            <svg id="retentionChart" class="chart-surface" role="img" aria-label="Retention and churn trend chart"></svg>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Predictive scoring</p>
+                <h2>Risk distribution</h2>
+              </div>
+              <button id="resetButton" class="icon-button ghost" type="button" title="Reset filters">
+                <i data-lucide="rotate-ccw"></i>
+              </button>
+            </div>
+            <div class="risk-layout">
+              <div id="riskRing" class="risk-ring" aria-label="Risk distribution chart">
+                <span id="riskRingValue">--</span>
+                <small>high risk</small>
+              </div>
+              <div id="riskLegend" class="risk-legend"></div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Customer portfolio</p>
+                <h2>Segment exposure</h2>
+              </div>
+            </div>
+            <div id="segmentBars" class="bar-list"></div>
+          </article>
+
+          <article class="panel" id="operations">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Service operations</p>
+                <h2>Operating controls</h2>
+              </div>
+            </div>
+            <div id="operationsMetrics" class="metric-stack"></div>
+          </article>
+
+          <article class="panel panel-wide">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Retention intervention</p>
+                <h2>Priority customer queue</h2>
+              </div>
+              <span id="tableCount" class="table-count">-- accounts</span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Customer</th>
+                    <th>Segment</th>
+                    <th>Region</th>
+                    <th>Risk</th>
+                    <th>CLV</th>
+                    <th>Service signal</th>
+                  </tr>
+                </thead>
+                <tbody id="customerTable"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="panel" id="campaigns">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Marketing performance</p>
+                <h2>Campaign ROI</h2>
+              </div>
+            </div>
+            <div id="campaignList" class="campaign-list"></div>
+          </article>
+
+          <article class="panel panel-dark">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Management brief</p>
+                <h2>Action plan</h2>
+              </div>
+            </div>
+            <div id="insightList" class="insight-list"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

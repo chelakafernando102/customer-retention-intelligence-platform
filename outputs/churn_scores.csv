@@ -1,0 +1,421 @@
+customer_id,segment,region,churn_score,risk_band,clv,recommended_action
+CUST-00001,High Value,Prairies,1.57,Low,6580.2,Maintain
+CUST-00002,High Value,Atlantic,10.4,Low,7509.35,Maintain
+CUST-00003,Loyal,Quebec,3.69,Low,6600.91,Maintain
+CUST-00004,New,Quebec,0.12,Low,1640.69,Maintain
+CUST-00005,New,Prairies,9.32,Low,3767.3,Maintain
+CUST-00006,High Value,British Columbia,20.07,Low,3488.66,Maintain
+CUST-00007,High Value,British Columbia,0.14,Low,11038.46,Maintain
+CUST-00008,At Risk,British Columbia,96.34,High,1630.72,Concierge outreach
+CUST-00009,New,Ontario,8.98,Low,4527.21,Maintain
+CUST-00010,Loyal,British Columbia,0.44,Low,8134.79,Maintain
+CUST-00011,High Value,Quebec,0.35,Low,5073.32,Maintain
+CUST-00012,At Risk,Quebec,10.89,Low,5755.48,Maintain
+CUST-00013,High Value,Quebec,0.87,Low,9124.76,Maintain
+CUST-00014,Loyal,Ontario,3.27,Low,5167.17,Maintain
+CUST-00015,Growth,Ontario,12.26,Low,5210.62,Maintain
+CUST-00016,Loyal,Atlantic,9.32,Low,5683.47,Maintain
+CUST-00017,Growth,Quebec,2.25,Low,7137.74,Maintain
+CUST-00018,New,Prairies,58.2,Medium,1342.14,Monitor
+CUST-00019,New,Ontario,5.67,Low,1138.18,Maintain
+CUST-00020,At Risk,Atlantic,56.8,Medium,1158.47,Monitor
+CUST-00021,High Value,Ontario,1.27,Low,4279.76,Maintain
+CUST-00022,At Risk,Atlantic,80.52,High,3102.27,Concierge outreach
+CUST-00023,New,Atlantic,1.1,Low,3713.6,Maintain
+CUST-00024,At Risk,Ontario,91.84,High,1755.52,Concierge outreach
+CUST-00025,High Value,Prairies,2.68,Low,3774.69,Maintain
+CUST-00026,High Value,Prairies,1.86,Low,3745.62,Maintain
+CUST-00027,Loyal,Prairies,41.33,Medium,2463.83,Monitor
+CUST-00028,At Risk,Ontario,25.74,Low,1644.79,Maintain
+CUST-00029,High Value,Prairies,0.15,Low,4793.82,Maintain
+CUST-00030,At Risk,Atlantic,80.81,High,2560.14,Concierge outreach
+CUST-00031,Loyal,Quebec,2.43,Low,2889.63,Maintain
+CUST-00032,New,Atlantic,0.52,Low,618.74,Maintain
+CUST-00033,At Risk,Atlantic,2.56,Low,3365.99,Maintain
+CUST-00034,Loyal,Ontario,2.38,Low,5661.69,Maintain
+CUST-00035,Growth,Quebec,24.59,Low,1670.42,Maintain
+CUST-00036,Growth,Ontario,3.24,Low,4255.55,Maintain
+CUST-00037,High Value,Quebec,26.11,Low,4135.07,Maintain
+CUST-00038,High Value,British Columbia,13.93,Low,5268.91,Maintain
+CUST-00039,Growth,Prairies,2.36,Low,3687.19,Maintain
+CUST-00040,High Value,Prairies,1.03,Low,5277.35,Maintain
+CUST-00041,New,Prairies,0.07,Low,8903.76,Maintain
+CUST-00042,New,Ontario,1.66,Low,2093.43,Maintain
+CUST-00043,At Risk,Ontario,37.09,Medium,6803.33,Monitor
+CUST-00044,New,Ontario,27.85,Low,2200.79,Maintain
+CUST-00045,At Risk,Ontario,98.38,High,1108.02,Concierge outreach
+CUST-00046,High Value,Quebec,5.52,Low,6965.34,Maintain
+CUST-00047,Growth,British Columbia,0.81,Low,5161.08,Maintain
+CUST-00048,Loyal,Quebec,0.75,Low,8490.55,Maintain
+CUST-00049,Loyal,Ontario,0.15,Low,4610.93,Maintain
+CUST-00050,New,British Columbia,4.48,Low,8197.54,Maintain
+CUST-00051,Loyal,British Columbia,62.24,Medium,1935.89,Monitor
+CUST-00052,New,Atlantic,6.17,Low,1593.61,Maintain
+CUST-00053,Growth,Prairies,0.17,Low,2755.53,Maintain
+CUST-00054,New,Prairies,0.29,Low,2131.98,Maintain
+CUST-00055,At Risk,Atlantic,16.41,Low,895.64,Maintain
+CUST-00056,Growth,British Columbia,0.09,Low,4574.84,Maintain
+CUST-00057,Loyal,Prairies,30.14,Medium,3193.19,Monitor
+CUST-00058,High Value,Atlantic,0.08,Low,5571.54,Maintain
+CUST-00059,Growth,Ontario,1.77,Low,3012.21,Maintain
+CUST-00060,Loyal,Atlantic,3.4,Low,5928.13,Maintain
+CUST-00061,Growth,Quebec,0.31,Low,5430.65,Maintain
+CUST-00062,Loyal,Ontario,11.68,Low,3475.09,Maintain
+CUST-00063,Growth,Prairies,82.1,High,4142.91,Concierge outreach
+CUST-00064,At Risk,British Columbia,16.94,Low,3513.16,Maintain
+CUST-00065,Growth,Ontario,0.17,Low,8551.11,Maintain
+CUST-00066,At Risk,British Columbia,5.62,Low,4123.62,Maintain
+CUST-00067,Growth,Atlantic,2.9,Low,2080.37,Maintain
+CUST-00068,High Value,Quebec,0.3,Low,7851.48,Maintain
+CUST-00069,High Value,Quebec,10.91,Low,3936.68,Maintain
+CUST-00070,Loyal,British Columbia,20.12,Low,6289.99,Maintain
+CUST-00071,At Risk,Atlantic,21.94,Low,1099.56,Maintain
+CUST-00072,New,British Columbia,11.43,Low,7146.4,Maintain
+CUST-00073,Growth,Quebec,5.02,Low,4730.22,Maintain
+CUST-00074,Growth,Prairies,0.59,Low,4834.05,Maintain
+CUST-00075,Loyal,Ontario,0.61,Low,2160.09,Maintain
+CUST-00076,New,Ontario,0.53,Low,3122.87,Maintain
+CUST-00077,Loyal,Quebec,12.91,Low,7330.68,Maintain
+CUST-00078,Growth,Quebec,52.66,Medium,1779.79,Monitor
+CUST-00079,Loyal,Atlantic,7.82,Low,6304.78,Maintain
+CUST-00080,New,British Columbia,0.12,Low,3512,Maintain
+CUST-00081,Loyal,British Columbia,3.4,Low,2047.84,Maintain
+CUST-00082,Growth,Atlantic,22.45,Low,5909.71,Maintain
+CUST-00083,New,Atlantic,32.68,Medium,4030.93,Monitor
+CUST-00084,High Value,Ontario,77.57,High,2630.53,Concierge outreach
+CUST-00085,At Risk,Prairies,97.23,High,2186.24,Concierge outreach
+CUST-00086,High Value,British Columbia,0.19,Low,5528.29,Maintain
+CUST-00087,High Value,Quebec,0.62,Low,8092.6,Maintain
+CUST-00088,Loyal,British Columbia,30.08,Medium,6393.87,Monitor
+CUST-00089,Loyal,Prairies,33.52,Medium,3047.87,Monitor
+CUST-00090,Growth,Atlantic,1.28,Low,8929.24,Maintain
+CUST-00091,At Risk,Atlantic,56.89,Medium,3209.16,Monitor
+CUST-00092,High Value,British Columbia,0.47,Low,5758.81,Maintain
+CUST-00093,High Value,Prairies,3.57,Low,9214.94,Maintain
+CUST-00094,Growth,Quebec,0.04,Low,4880.26,Maintain
+CUST-00095,Growth,Quebec,0.06,Low,5315.2,Maintain
+CUST-00096,High Value,Prairies,0.28,Low,4958.54,Maintain
+CUST-00097,Loyal,Atlantic,15.63,Low,4106.65,Maintain
+CUST-00098,At Risk,Atlantic,98.93,High,3821.56,Concierge outreach
+CUST-00099,High Value,Ontario,0.05,Low,6189.67,Maintain
+CUST-00100,High Value,Ontario,0.76,Low,7229.52,Maintain
+CUST-00101,New,British Columbia,6.94,Low,2972.15,Maintain
+CUST-00102,High Value,Ontario,31.16,Medium,4208.04,Monitor
+CUST-00103,Growth,Atlantic,0.27,Low,5153.22,Maintain
+CUST-00104,High Value,Prairies,16.79,Low,4900.42,Maintain
+CUST-00105,High Value,Quebec,9.52,Low,7100.46,Maintain
+CUST-00106,High Value,British Columbia,0.66,Low,9136.01,Maintain
+CUST-00107,Growth,Atlantic,1.23,Low,5206.23,Maintain
+CUST-00108,Loyal,Atlantic,41.65,Medium,3891.37,Monitor
+CUST-00109,Growth,Ontario,0.08,Low,9886.99,Maintain
+CUST-00110,Loyal,Prairies,0.25,Low,4301.98,Maintain
+CUST-00111,Loyal,Prairies,48.85,Medium,3571,Monitor
+CUST-00112,Loyal,Ontario,43.28,Medium,4237.52,Monitor
+CUST-00113,Growth,Ontario,3.25,Low,2243.33,Maintain
+CUST-00114,Loyal,British Columbia,72.56,High,1344.88,Concierge outreach
+CUST-00115,Growth,British Columbia,2.36,Low,4078.02,Maintain
+CUST-00116,Loyal,Prairies,1.17,Low,6758.62,Maintain
+CUST-00117,Growth,Ontario,31.92,Medium,3555.58,Monitor
+CUST-00118,Growth,British Columbia,0.37,Low,10731.78,Maintain
+CUST-00119,At Risk,Ontario,46.83,Medium,516.94,Monitor
+CUST-00120,Loyal,Prairies,6.22,Low,3579.22,Maintain
+CUST-00121,High Value,Prairies,4.68,Low,5820.3,Maintain
+CUST-00122,New,Quebec,67.83,Medium,384.79,Monitor
+CUST-00123,High Value,Prairies,74.63,High,4146.26,Concierge outreach
+CUST-00124,Growth,Quebec,0.2,Low,3575.6,Maintain
+CUST-00125,At Risk,Atlantic,12.27,Low,6908.83,Maintain
+CUST-00126,Growth,Prairies,56.65,Medium,5252.03,Monitor
+CUST-00127,Growth,British Columbia,0.11,Low,4012.28,Maintain
+CUST-00128,New,Atlantic,26.03,Low,1983.26,Maintain
+CUST-00129,At Risk,Quebec,27.22,Low,1202.18,Maintain
+CUST-00130,Growth,Prairies,69.82,Medium,1326.46,Monitor
+CUST-00131,New,Quebec,0.05,Low,9275.82,Maintain
+CUST-00132,At Risk,Ontario,40.23,Medium,853.57,Monitor
+CUST-00133,New,British Columbia,64.59,Medium,1613.32,Monitor
+CUST-00134,At Risk,Atlantic,8.54,Low,5721.13,Maintain
+CUST-00135,Loyal,Quebec,0.1,Low,10371.37,Maintain
+CUST-00136,Loyal,Atlantic,0.16,Low,3131.77,Maintain
+CUST-00137,Growth,Quebec,0.65,Low,8723.37,Maintain
+CUST-00138,New,Ontario,9.83,Low,863.48,Maintain
+CUST-00139,Loyal,Quebec,3.32,Low,3139.03,Maintain
+CUST-00140,New,Prairies,13.05,Low,2091.05,Maintain
+CUST-00141,New,Quebec,11.17,Low,3118.12,Maintain
+CUST-00142,High Value,Prairies,0.35,Low,5908.36,Maintain
+CUST-00143,High Value,Quebec,2.69,Low,9760.87,Maintain
+CUST-00144,Loyal,Ontario,61.33,Medium,793.36,Monitor
+CUST-00145,High Value,British Columbia,25.2,Low,3884.54,Maintain
+CUST-00146,Growth,Ontario,4.06,Low,5480.18,Maintain
+CUST-00147,Growth,Quebec,1.57,Low,5848.34,Maintain
+CUST-00148,Loyal,British Columbia,4.21,Low,2320.6,Maintain
+CUST-00149,Loyal,Prairies,27.79,Low,3311.09,Maintain
+CUST-00150,High Value,Atlantic,5.02,Low,5376.48,Maintain
+CUST-00151,Growth,Atlantic,15.76,Low,7037.22,Maintain
+CUST-00152,At Risk,Ontario,1.62,Low,2468.75,Maintain
+CUST-00153,Loyal,Ontario,0.33,Low,3823.73,Maintain
+CUST-00154,At Risk,Atlantic,3.54,Low,1614.2,Maintain
+CUST-00155,Growth,British Columbia,3.49,Low,8674.88,Maintain
+CUST-00156,High Value,Quebec,75.28,High,4467.2,Concierge outreach
+CUST-00157,High Value,Ontario,46.25,Medium,2509.91,Monitor
+CUST-00158,At Risk,Quebec,49.65,Medium,1364.87,Monitor
+CUST-00159,High Value,Quebec,0.22,Low,6809.15,Maintain
+CUST-00160,Loyal,Atlantic,22.81,Low,2174.37,Maintain
+CUST-00161,Growth,British Columbia,11.07,Low,2048.56,Maintain
+CUST-00162,High Value,Prairies,0.29,Low,10254.1,Maintain
+CUST-00163,At Risk,Atlantic,97.81,High,4291.17,Concierge outreach
+CUST-00164,Loyal,Quebec,1.01,Low,9930.52,Maintain
+CUST-00165,Growth,Ontario,55.62,Medium,5533.59,Monitor
+CUST-00166,Loyal,British Columbia,34.01,Medium,6984.41,Monitor
+CUST-00167,Growth,Prairies,4.04,Low,2244.89,Maintain
+CUST-00168,Growth,Prairies,60.86,Medium,2348.33,Monitor
+CUST-00169,Loyal,Prairies,0.18,Low,4994.82,Maintain
+CUST-00170,New,British Columbia,0.06,Low,9299.95,Maintain
+CUST-00171,High Value,British Columbia,3.03,Low,4866.32,Maintain
+CUST-00172,Loyal,Prairies,23.61,Low,3195.35,Maintain
+CUST-00173,High Value,Prairies,34.21,Medium,3991.91,Monitor
+CUST-00174,Growth,Prairies,0.12,Low,3489.06,Maintain
+CUST-00175,New,Prairies,0.72,Low,1667.55,Maintain
+CUST-00176,At Risk,Atlantic,39.75,Medium,3211.32,Monitor
+CUST-00177,Loyal,Ontario,7.31,Low,1793.98,Maintain
+CUST-00178,High Value,Atlantic,7.67,Low,3829.15,Maintain
+CUST-00179,Loyal,British Columbia,6.06,Low,4227.6,Maintain
+CUST-00180,Growth,Ontario,6.41,Low,2422.44,Maintain
+CUST-00181,Loyal,Quebec,1.22,Low,4172.81,Maintain
+CUST-00182,New,Atlantic,0.93,Low,2858.91,Maintain
+CUST-00183,High Value,British Columbia,0.2,Low,8541.35,Maintain
+CUST-00184,New,Atlantic,2.06,Low,4939.1,Maintain
+CUST-00185,New,Prairies,0.34,Low,4839.98,Maintain
+CUST-00186,High Value,Ontario,3.56,Low,5187.01,Maintain
+CUST-00187,At Risk,Atlantic,29.22,Low,1632.5,Maintain
+CUST-00188,At Risk,British Columbia,96.75,High,2411.58,Concierge outreach
+CUST-00189,High Value,Prairies,67.97,Medium,2930.73,Monitor
+CUST-00190,Growth,Atlantic,0.83,Low,4792.28,Maintain
+CUST-00191,Loyal,Quebec,0.38,Low,7741.99,Maintain
+CUST-00192,High Value,British Columbia,38.04,Medium,3175.92,Monitor
+CUST-00193,New,Quebec,20.16,Low,2413.53,Maintain
+CUST-00194,Loyal,Prairies,79.96,High,875.85,Concierge outreach
+CUST-00195,At Risk,Prairies,22.45,Low,3290.95,Maintain
+CUST-00196,Loyal,Atlantic,28.84,Low,2296.24,Maintain
+CUST-00197,Growth,Atlantic,0.07,Low,6734.37,Maintain
+CUST-00198,High Value,Atlantic,0.69,Low,4844.63,Maintain
+CUST-00199,At Risk,British Columbia,71.71,High,2501.7,Concierge outreach
+CUST-00200,Loyal,Prairies,15.48,Low,3960.49,Maintain
+CUST-00201,At Risk,Atlantic,17.75,Low,4477.94,Maintain
+CUST-00202,Growth,British Columbia,35.17,Medium,1683.09,Monitor
+CUST-00203,Loyal,Quebec,0.07,Low,11336.21,Maintain
+CUST-00204,At Risk,Atlantic,4.31,Low,6338.74,Maintain
+CUST-00205,Loyal,Atlantic,0.15,Low,6841.93,Maintain
+CUST-00206,Loyal,Quebec,1.11,Low,4134.01,Maintain
+CUST-00207,At Risk,British Columbia,76.69,High,3628.74,Concierge outreach
+CUST-00208,High Value,Quebec,1.06,Low,3481.51,Maintain
+CUST-00209,New,British Columbia,0.38,Low,9175.72,Maintain
+CUST-00210,Growth,Ontario,28.56,Low,5343.33,Maintain
+CUST-00211,High Value,Prairies,11.39,Low,3457.33,Maintain
+CUST-00212,Growth,Ontario,46.84,Medium,2836.07,Monitor
+CUST-00213,New,Atlantic,27.71,Low,1296.35,Maintain
+CUST-00214,Growth,Ontario,34.06,Medium,2800.98,Monitor
+CUST-00215,At Risk,Quebec,95.19,High,3310.13,Concierge outreach
+CUST-00216,New,British Columbia,0.06,Low,1203.06,Maintain
+CUST-00217,New,British Columbia,0.31,Low,1768.68,Maintain
+CUST-00218,Growth,Ontario,0.07,Low,6791.1,Maintain
+CUST-00219,Growth,Ontario,2.97,Low,4051.48,Maintain
+CUST-00220,New,Ontario,7.15,Low,1966.95,Maintain
+CUST-00221,Loyal,Atlantic,1.06,Low,2620.72,Maintain
+CUST-00222,Growth,Quebec,0.24,Low,2839.88,Maintain
+CUST-00223,New,British Columbia,0.3,Low,1375.72,Maintain
+CUST-00224,At Risk,Atlantic,98.37,High,1959.28,Concierge outreach
+CUST-00225,High Value,British Columbia,2.74,Low,6366.79,Maintain
+CUST-00226,Loyal,Ontario,76.3,High,1290.36,Concierge outreach
+CUST-00227,New,Atlantic,9.82,Low,688.3,Maintain
+CUST-00228,High Value,British Columbia,9.73,Low,3250.07,Maintain
+CUST-00229,New,Prairies,20.15,Low,1277.13,Maintain
+CUST-00230,Growth,Ontario,60.99,Medium,3160.74,Monitor
+CUST-00231,At Risk,Prairies,68.08,Medium,669.53,Monitor
+CUST-00232,Growth,Atlantic,13.14,Low,6280,Maintain
+CUST-00233,At Risk,Prairies,19.65,Low,4454.2,Maintain
+CUST-00234,At Risk,Ontario,12.95,Low,2432.93,Maintain
+CUST-00235,Loyal,Atlantic,47.03,Medium,900.94,Monitor
+CUST-00236,New,British Columbia,1.45,Low,3009.91,Maintain
+CUST-00237,Growth,Ontario,1.92,Low,2998.22,Maintain
+CUST-00238,Loyal,Quebec,0.18,Low,6230.37,Maintain
+CUST-00239,Loyal,Prairies,21.73,Low,6861.12,Maintain
+CUST-00240,Growth,Ontario,4.92,Low,2412.82,Maintain
+CUST-00241,New,Ontario,2.49,Low,4808.1,Maintain
+CUST-00242,High Value,Quebec,64.08,Medium,1865.73,Monitor
+CUST-00243,Growth,British Columbia,0.11,Low,9461.48,Maintain
+CUST-00244,Growth,Prairies,1.55,Low,5316.24,Maintain
+CUST-00245,Loyal,Quebec,22.72,Low,1465.38,Maintain
+CUST-00246,High Value,British Columbia,14.96,Low,5080.45,Maintain
+CUST-00247,Growth,Atlantic,8.09,Low,6038.7,Maintain
+CUST-00248,At Risk,Atlantic,91.54,High,2020.81,Concierge outreach
+CUST-00249,New,Ontario,7.81,Low,1014.36,Maintain
+CUST-00250,New,Ontario,9.49,Low,7060.7,Maintain
+CUST-00251,At Risk,Prairies,80.13,High,4144.52,Concierge outreach
+CUST-00252,High Value,Quebec,17.08,Low,4247.65,Maintain
+CUST-00253,Loyal,Ontario,4.78,Low,4952.94,Maintain
+CUST-00254,Loyal,Quebec,0.48,Low,7615.01,Maintain
+CUST-00255,Loyal,Quebec,0.07,Low,2602.85,Maintain
+CUST-00256,High Value,Ontario,32.43,Medium,3532.12,Monitor
+CUST-00257,At Risk,British Columbia,41.5,Medium,1224.59,Monitor
+CUST-00258,Growth,Ontario,0.2,Low,9231.71,Maintain
+CUST-00259,High Value,Ontario,6.57,Low,6940.16,Maintain
+CUST-00260,At Risk,Ontario,13.17,Low,1745.44,Maintain
+CUST-00261,Growth,Ontario,0.92,Low,5483.22,Maintain
+CUST-00262,Loyal,Ontario,7.06,Low,2987.63,Maintain
+CUST-00263,At Risk,Atlantic,16.44,Low,1793.01,Maintain
+CUST-00264,Growth,Ontario,0.42,Low,6057.22,Maintain
+CUST-00265,High Value,Quebec,10.78,Low,4159.96,Maintain
+CUST-00266,New,Atlantic,3.69,Low,2551.41,Maintain
+CUST-00267,At Risk,Ontario,94.36,High,497.28,Concierge outreach
+CUST-00268,High Value,Atlantic,18.44,Low,2165.1,Maintain
+CUST-00269,High Value,Prairies,6.52,Low,5113.75,Maintain
+CUST-00270,High Value,Ontario,7.59,Low,5443.18,Maintain
+CUST-00271,New,Prairies,43.79,Medium,953.94,Monitor
+CUST-00272,Loyal,British Columbia,0.16,Low,7736.84,Maintain
+CUST-00273,Growth,British Columbia,1.04,Low,4553.45,Maintain
+CUST-00274,New,British Columbia,7.08,Low,582.74,Maintain
+CUST-00275,At Risk,British Columbia,75.82,High,1780.08,Concierge outreach
+CUST-00276,At Risk,British Columbia,91.42,High,3933.17,Concierge outreach
+CUST-00277,At Risk,British Columbia,13.7,Low,3791.21,Maintain
+CUST-00278,Loyal,British Columbia,0.07,Low,4371.17,Maintain
+CUST-00279,At Risk,Ontario,6.43,Low,3592.6,Maintain
+CUST-00280,At Risk,Ontario,75.73,High,2554.38,Concierge outreach
+CUST-00281,Loyal,Ontario,12.29,Low,1491.14,Maintain
+CUST-00282,At Risk,Ontario,72.67,High,3865.02,Concierge outreach
+CUST-00283,Growth,Atlantic,1.89,Low,7107.76,Maintain
+CUST-00284,New,Atlantic,2.08,Low,2577.33,Maintain
+CUST-00285,At Risk,Prairies,75.64,High,409.08,Concierge outreach
+CUST-00286,Loyal,Atlantic,0.1,Low,6288.58,Maintain
+CUST-00287,High Value,Ontario,15.75,Low,6905.43,Maintain
+CUST-00288,Growth,British Columbia,0.13,Low,7661.78,Maintain
+CUST-00289,Growth,Ontario,13.87,Low,4469.33,Maintain
+CUST-00290,Loyal,Prairies,0.64,Low,8979.3,Maintain
+CUST-00291,At Risk,Ontario,87.24,High,4300.11,Concierge outreach
+CUST-00292,New,Ontario,0.82,Low,5416.64,Maintain
+CUST-00293,At Risk,British Columbia,91.08,High,904.49,Concierge outreach
+CUST-00294,New,Prairies,11.74,Low,4657.77,Maintain
+CUST-00295,Loyal,British Columbia,6.24,Low,5627.42,Maintain
+CUST-00296,High Value,Atlantic,33.33,Medium,3183.96,Monitor
+CUST-00297,Growth,Ontario,6.4,Low,2820.02,Maintain
+CUST-00298,New,Atlantic,1.07,Low,1444.58,Maintain
+CUST-00299,New,Atlantic,10.03,Low,546.17,Maintain
+CUST-00300,At Risk,Atlantic,69.62,Medium,1738.98,Monitor
+CUST-00301,At Risk,Atlantic,37.77,Medium,2152.47,Monitor
+CUST-00302,New,Ontario,0.5,Low,4103.17,Maintain
+CUST-00303,New,Quebec,1.7,Low,3097.17,Maintain
+CUST-00304,At Risk,Prairies,29.67,Low,2963.91,Maintain
+CUST-00305,High Value,Prairies,3.74,Low,7396.5,Maintain
+CUST-00306,Loyal,Atlantic,0.38,Low,5722.3,Maintain
+CUST-00307,Growth,Prairies,25.24,Low,3136.93,Maintain
+CUST-00308,New,British Columbia,1.36,Low,1236.55,Maintain
+CUST-00309,At Risk,Prairies,94.44,High,1952.12,Concierge outreach
+CUST-00310,At Risk,British Columbia,37.99,Medium,6395.97,Monitor
+CUST-00311,New,Quebec,8.4,Low,1024.93,Maintain
+CUST-00312,High Value,Prairies,0.39,Low,4221.33,Maintain
+CUST-00313,At Risk,Atlantic,99.06,High,2236.84,Concierge outreach
+CUST-00314,Growth,Ontario,64.69,Medium,4905.56,Monitor
+CUST-00315,Growth,British Columbia,66.73,Medium,2437.87,Monitor
+CUST-00316,High Value,Quebec,4.45,Low,7453.01,Maintain
+CUST-00317,At Risk,Ontario,16.83,Low,3824.1,Maintain
+CUST-00318,New,Quebec,1.91,Low,2988.46,Maintain
+CUST-00319,High Value,Atlantic,4.04,Low,3703.29,Maintain
+CUST-00320,Growth,Prairies,0.89,Low,6374.63,Maintain
+CUST-00321,High Value,Quebec,1.19,Low,8406.72,Maintain
+CUST-00322,Loyal,Atlantic,0.21,Low,5521.28,Maintain
+CUST-00323,Growth,Atlantic,78.3,High,2206.58,Concierge outreach
+CUST-00324,Growth,Atlantic,1.0,Low,4762.58,Maintain
+CUST-00325,At Risk,Quebec,97.66,High,2849.59,Concierge outreach
+CUST-00326,Loyal,Quebec,0.09,Low,4053.51,Maintain
+CUST-00327,At Risk,Quebec,13.33,Low,2978.98,Maintain
+CUST-00328,At Risk,Atlantic,32.25,Medium,3879.3,Monitor
+CUST-00329,High Value,British Columbia,51.14,Medium,7580.28,Monitor
+CUST-00330,Growth,British Columbia,4.5,Low,7217.26,Maintain
+CUST-00331,At Risk,Quebec,5.32,Low,3257.26,Maintain
+CUST-00332,New,Prairies,18.29,Low,5862.46,Maintain
+CUST-00333,Growth,Atlantic,0.79,Low,3911.61,Maintain
+CUST-00334,Loyal,Quebec,1.27,Low,6609.83,Maintain
+CUST-00335,At Risk,Quebec,89.07,High,1328.89,Concierge outreach
+CUST-00336,High Value,Quebec,3.18,Low,4544.16,Maintain
+CUST-00337,At Risk,Ontario,92.97,High,2123.25,Concierge outreach
+CUST-00338,High Value,British Columbia,68.03,Medium,3925.48,Monitor
+CUST-00339,At Risk,Prairies,73.15,High,4429.77,Concierge outreach
+CUST-00340,At Risk,Ontario,62.03,Medium,1234.64,Monitor
+CUST-00341,At Risk,Ontario,3.72,Low,4015.42,Maintain
+CUST-00342,Loyal,British Columbia,79.02,High,3253.64,Concierge outreach
+CUST-00343,New,Quebec,13.78,Low,5660.05,Maintain
+CUST-00344,Loyal,Atlantic,28.79,Low,3153.74,Maintain
+CUST-00345,Growth,Prairies,5.9,Low,3544.67,Maintain
+CUST-00346,At Risk,Ontario,97.14,High,3526.87,Concierge outreach
+CUST-00347,High Value,Atlantic,6.56,Low,4567.22,Maintain
+CUST-00348,Growth,Atlantic,1.59,Low,4745,Maintain
+CUST-00349,Growth,Quebec,10.8,Low,3048.59,Maintain
+CUST-00350,At Risk,Quebec,80.93,High,2847.19,Concierge outreach
+CUST-00351,At Risk,Quebec,39.03,Medium,2120.02,Monitor
+CUST-00352,New,Ontario,32.89,Medium,4394.04,Monitor
+CUST-00353,Growth,Ontario,9.04,Low,6622.61,Maintain
+CUST-00354,High Value,Quebec,1.43,Low,5882.06,Maintain
+CUST-00355,High Value,Prairies,31.97,Medium,5030.27,Monitor
+CUST-00356,At Risk,Prairies,54.99,Medium,1948.71,Monitor
+CUST-00357,High Value,Quebec,3.15,Low,6390.79,Maintain
+CUST-00358,High Value,British Columbia,32.01,Medium,3736.06,Monitor
+CUST-00359,Growth,Prairies,5.31,Low,5882.04,Maintain
+CUST-00360,At Risk,Ontario,6.73,Low,1879.13,Maintain
+CUST-00361,Growth,Atlantic,3.92,Low,4065.99,Maintain
+CUST-00362,At Risk,Prairies,1.78,Low,1317.77,Maintain
+CUST-00363,High Value,Ontario,0.82,Low,5986.23,Maintain
+CUST-00364,High Value,Atlantic,0.09,Low,11980.4,Maintain
+CUST-00365,High Value,Quebec,40.98,Medium,6766.88,Monitor
+CUST-00366,New,Prairies,35.34,Medium,786.45,Monitor
+CUST-00367,Growth,Quebec,26.14,Low,5437.41,Maintain
+CUST-00368,At Risk,Ontario,2.95,Low,5713.15,Maintain
+CUST-00369,High Value,British Columbia,19.53,Low,4179.9,Maintain
+CUST-00370,New,Quebec,33.3,Medium,2083.67,Monitor
+CUST-00371,New,Prairies,0.07,Low,4905.52,Maintain
+CUST-00372,At Risk,British Columbia,75.04,High,2646.56,Concierge outreach
+CUST-00373,New,Atlantic,12.66,Low,4681.93,Maintain
+CUST-00374,At Risk,Atlantic,95.94,High,765.08,Concierge outreach
+CUST-00375,High Value,Ontario,0.24,Low,4350,Maintain
+CUST-00376,Loyal,Prairies,1.91,Low,5808.01,Maintain
+CUST-00377,At Risk,British Columbia,6.48,Low,1865.64,Maintain
+CUST-00378,New,Atlantic,9.01,Low,882.82,Maintain
+CUST-00379,Loyal,Quebec,7.68,Low,5499.09,Maintain
+CUST-00380,At Risk,Ontario,1.24,Low,7086.64,Maintain
+CUST-00381,Growth,Quebec,1.37,Low,5380.62,Maintain
+CUST-00382,High Value,British Columbia,0.63,Low,12833.59,Maintain
+CUST-00383,High Value,British Columbia,1.77,Low,6909.59,Maintain
+CUST-00384,Loyal,Quebec,3.85,Low,6599.56,Maintain
+CUST-00385,New,Quebec,0.52,Low,1587.47,Maintain
+CUST-00386,Loyal,Ontario,0.7,Low,3929.56,Maintain
+CUST-00387,Growth,Prairies,0.07,Low,10487.35,Maintain
+CUST-00388,Growth,British Columbia,11.77,Low,4925.01,Maintain
+CUST-00389,New,Ontario,8.61,Low,2824.48,Maintain
+CUST-00390,New,British Columbia,2.83,Low,4218.55,Maintain
+CUST-00391,Loyal,Prairies,0.04,Low,3648.44,Maintain
+CUST-00392,New,Quebec,21.23,Low,3422.11,Maintain
+CUST-00393,At Risk,Prairies,55.97,Medium,1775.85,Monitor
+CUST-00394,New,Atlantic,69.59,Medium,3514.99,Monitor
+CUST-00395,At Risk,British Columbia,98.32,High,1561.95,Concierge outreach
+CUST-00396,Growth,Prairies,74.93,High,1083.92,Concierge outreach
+CUST-00397,Growth,Ontario,0.42,Low,7813.63,Maintain
+CUST-00398,Loyal,Atlantic,1.44,Low,10186.62,Maintain
+CUST-00399,Loyal,Ontario,1.19,Low,6679.54,Maintain
+CUST-00400,New,Quebec,5.36,Low,5059.01,Maintain
+CUST-00401,High Value,Prairies,0.93,Low,7453.83,Maintain
+CUST-00402,Loyal,Prairies,0.38,Low,3104.19,Maintain
+CUST-00403,New,Quebec,0.26,Low,2810.25,Maintain
+CUST-00404,High Value,Ontario,0.45,Low,3564.39,Maintain
+CUST-00405,Loyal,Atlantic,7.69,Low,6177.71,Maintain
+CUST-00406,High Value,Atlantic,9.19,Low,3899.06,Maintain
+CUST-00407,New,Ontario,0.15,Low,2614.43,Maintain
+CUST-00408,High Value,Prairies,0.53,Low,3732.74,Maintain
+CUST-00409,High Value,Quebec,0.14,Low,10025.34,Maintain
+CUST-00410,At Risk,Quebec,76.04,High,2976.86,Concierge outreach
+CUST-00411,New,Prairies,1.37,Low,3137.63,Maintain
+CUST-00412,Loyal,British Columbia,8.6,Low,1533.05,Maintain
+CUST-00413,New,Ontario,0.46,Low,1724.11,Maintain
+CUST-00414,At Risk,Quebec,22.02,Low,893.36,Maintain
+CUST-00415,Loyal,British Columbia,2.39,Low,1594.47,Maintain
+CUST-00416,Growth,British Columbia,0.19,Low,4556.67,Maintain
+CUST-00417,Growth,Quebec,0.26,Low,8416.17,Maintain
+CUST-00418,New,Quebec,5.14,Low,2196.98,Maintain
+CUST-00419,New,Quebec,0.98,Low,799.52,Maintain
+CUST-00420,Loyal,Quebec,0.85,Low,4199.42,Maintain

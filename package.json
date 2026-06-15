@@ -1,0 +1,22 @@
+{
+  "name": "customer-retention-intelligence-platform",
+  "version": "1.0.0",
+  "description": "A premium customer retention and operations intelligence analytics portfolio project.",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate_data.mjs",
+    "validate": "node scripts/validate_project.mjs",
+    "test": "npm run validate",
+    "preview": "python3 -m http.server 4173"
+  },
+  "keywords": [
+    "business-analytics",
+    "customer-retention",
+    "power-bi",
+    "sql",
+    "python",
+    "portfolio"
+  ],
+  "author": "Chelaka Fernando",
+  "license": "MIT"
+}
