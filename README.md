@@ -12,6 +12,17 @@ A premium analytics portfolio project for customer retention, service operations
 - Dashboard design: polished executive interface with filters, trend charts, risk distribution, priority queues, and export.
 - Data storytelling: simulated business data that mirrors retention problems faced by financial services, telecom, subscription, and customer service teams.
 
+## Tools Used
+
+Power BI, SQL, Excel, Python, KPI Design, Customer Segmentation
+
+## Business Impact
+
+- Identified high-risk customer segments for proactive retention outreach.
+- Improved retention campaign targeting using churn risk, customer lifetime value, and engagement signals.
+- Reduced service escalation risk by monitoring complaint volume, SLA compliance, and resolution time.
+- Increased visibility into churn drivers across customer experience, operations, and campaign data.
+
 ## Live Dashboard
 
 Hosted dashboard:

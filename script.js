@@ -336,19 +336,40 @@ const renderInsights = (customers, monthly) => {
   const highRisk = customers.filter((customer) => customer.risk_band === "High");
   const highComplaints = customers.filter((customer) => customer.complaints_last_90d >= 3);
   const latest = monthly.at(-1);
+  const previous = monthly.at(-2) || latest;
   const campaignSaved = sum(state.campaigns, "revenue_saved");
+  const bestCampaign = [...state.campaigns].sort((a, b) => b.revenue_saved - a.revenue_saved)[0];
+  const segmentExposure = Object.entries(groupBy(customers, "segment"))
+    .map(([segment, items]) => ({
+      segment,
+      exposure: sum(items.filter((customer) => customer.risk_band !== "Low"), "clv"),
+      avgRisk: average(items, "churn_probability"),
+    }))
+    .sort((a, b) => b.exposure - a.exposure)[0];
+  const topSegment = segmentExposure || { segment: "Selected customers", exposure: 0, avgRisk: 0 };
+  const highRiskResolution = average(highRisk, "avg_resolution_hours");
+  const fullResolution = average(customers, "avg_resolution_hours");
+  const retentionLift = latest.retention_rate - previous.retention_rate;
   const insights = [
     [
-      "High-risk outreach",
-      `${formatNumber(highRisk.length)} accounts carry ${formatCurrency(sum(highRisk, "clv"))} in lifetime value exposure. Prioritize concierge recovery within the next review cycle.`,
+      "Prioritize high-risk accounts",
+      `${formatNumber(highRisk.length)} customers are classified as high risk, representing ${formatCurrency(sum(highRisk, "clv"))} in lifetime value exposure.`,
     ],
     [
-      "Service recovery",
-      `${formatNumber(highComplaints.length)} customers have three or more recent complaints. Resolution time and CSAT are the clearest intervention levers.`,
+      "Focus on complaint-heavy customers",
+      `${formatNumber(highComplaints.length)} customers have three or more recent complaints, making them the highest-priority queue for service recovery.`,
     ],
     [
-      "Campaign lift",
-      `Retention campaigns have protected ${formatCurrency(campaignSaved)} with ${formatPercent(latest.campaign_conversion)} latest-month conversion.`,
+      "Target the largest exposed segment",
+      `${topSegment.segment} show ${formatCurrency(topSegment.exposure)} in non-low-risk CLV exposure with ${formatPercent(topSegment.avgRisk)} average churn risk.`,
+    ],
+    [
+      "Reduce escalation risk",
+      `High-risk accounts average ${highRiskResolution.toFixed(1)}h resolution time versus ${fullResolution.toFixed(1)}h overall, indicating service speed is a churn lever.`,
+    ],
+    [
+      "Scale proven campaigns",
+      `${bestCampaign.campaign_name} leads campaign impact, while all retention campaigns have protected ${formatCurrency(campaignSaved)} and retention improved ${retentionLift.toFixed(1)} pts month over month.`,
     ],
   ];
 
