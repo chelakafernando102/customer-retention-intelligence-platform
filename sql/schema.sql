@@ -65,3 +65,31 @@ CREATE INDEX idx_customer_risk_band ON dim_customer(risk_band);
 CREATE INDEX idx_customer_segment ON dim_customer(segment);
 CREATE INDEX idx_ticket_customer ON fact_service_ticket(customer_id);
 CREATE INDEX idx_ticket_month ON fact_service_ticket(opened_month);
+
+CREATE VIEW customer_retention AS
+SELECT
+  customer_id,
+  segment AS customer_segment,
+  region,
+  account_type,
+  monthly_spend,
+  usage_index,
+  complaints_last_90d,
+  support_tickets,
+  avg_resolution_hours,
+  csat,
+  nps,
+  campaign_engaged,
+  churn_probability,
+  risk_band,
+  clv AS customer_lifetime_value,
+  status
+FROM dim_customer;
+
+CREATE VIEW campaign_performance AS
+SELECT *
+FROM fact_campaign_performance;
+
+CREATE VIEW service_tickets AS
+SELECT *
+FROM fact_service_ticket;

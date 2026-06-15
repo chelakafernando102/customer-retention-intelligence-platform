@@ -18,10 +18,38 @@ Power BI, SQL, Excel, Python, KPI Design, Customer Segmentation
 
 ## Business Impact
 
-- Identified high-risk customer segments for proactive retention outreach.
-- Improved retention campaign targeting using churn risk, customer lifetime value, and engagement signals.
-- Reduced service escalation risk by monitoring complaint volume, SLA compliance, and resolution time.
-- Increased visibility into churn drivers across customer experience, operations, and campaign data.
+- Customers with 3+ complaints were 2.8x more likely to churn.
+- Customers contacted within 48 hours of an issue showed higher retention.
+- Premium-tier customers generated 42% of retained revenue.
+- Retention campaigns improved engagement by 18%.
+
+## Business Analysis Artifacts
+
+Hosted page:
+
+[https://chelakafernando102.github.io/customer-retention-intelligence-platform/business-analysis-artifacts.html](https://chelakafernando102.github.io/customer-retention-intelligence-platform/business-analysis-artifacts.html)
+
+Included artifacts:
+
+- Business Requirements Document (BRD)
+- Stakeholder Matrix
+- User Stories
+- Process Flow Diagram
+- KPI Definitions
+- SQL Examples
+
+## Executive Recommendations
+
+Hosted slide:
+
+[https://chelakafernando102.github.io/customer-retention-intelligence-platform/management-recommendations.html](https://chelakafernando102.github.io/customer-retention-intelligence-platform/management-recommendations.html)
+
+Recommendation themes:
+
+- Prioritize outreach to customers with churn scores above 70%.
+- Reduce complaint resolution times below SLA thresholds.
+- Increase targeted retention offers for high-value customers.
+- Expand successful campaign segments.
 
 ## Live Dashboard
 
@@ -50,10 +78,13 @@ Then visit `http://localhost:4173`.
 |   +-- campaign_performance.csv
 |   +-- dataset_summary.json
 +-- docs/
+|   +-- business_analysis_artifacts.md
 |   +-- business_requirements.md
 |   +-- data_dictionary.md
+|   +-- management_recommendations.md
 |   +-- model_design.md
 |   +-- report_blueprint.md
+|   +-- sql_examples.md
 +-- python/
 |   +-- churn_model.py
 +-- scripts/
@@ -62,10 +93,26 @@ Then visit `http://localhost:4173`.
 +-- sql/
 |   +-- schema.sql
 |   +-- analytics_queries.sql
++-- business-analysis-artifacts.html
 +-- index.html
++-- management-recommendations.html
++-- page-icons.js
 +-- styles.css
 +-- script.js
 ```
+
+## SQL Examples
+
+```sql
+SELECT
+    customer_segment,
+    AVG(churn_probability) AS avg_churn_probability,
+    COUNT(customer_id) AS customers
+FROM customer_retention
+GROUP BY customer_segment;
+```
+
+Additional SQL examples are available in `docs/sql_examples.md` and `sql/analytics_queries.sql`.
 
 ## Key KPIs
 

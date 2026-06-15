@@ -2,6 +2,9 @@ import { access, readFile } from "node:fs/promises";
 
 const requiredFiles = [
   "index.html",
+  "business-analysis-artifacts.html",
+  "management-recommendations.html",
+  "page-icons.js",
   "styles.css",
   "script.js",
   "README.md",
@@ -18,6 +21,9 @@ const requiredFiles = [
   "docs/data_dictionary.md",
   "docs/report_blueprint.md",
   "docs/model_design.md",
+  "docs/business_analysis_artifacts.md",
+  "docs/sql_examples.md",
+  "docs/management_recommendations.md",
 ];
 
 const parseCsv = (text) => {
